@@ -1,0 +1,4 @@
+convert .dot files to .gml files
+    dot file.dot | gv2gml > file.gml
+then it can be opened with yEd.
+

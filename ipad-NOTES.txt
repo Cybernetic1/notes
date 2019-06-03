@@ -1,0 +1,3 @@
+sudo ifuse /mnt/ipad
+
+find -cmin -10

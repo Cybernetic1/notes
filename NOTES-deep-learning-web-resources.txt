@@ -1,0 +1,50 @@
+How can I sort the values in a custom Keras / Tensorflow Loss Function?
+https://stackoverflow.com/questions/48096812/how-can-i-sort-the-values-in-a-custom-keras-tensorflow-loss-function
+
+Customize Keras' loss function in a way that the y_true will depend on y_pred
+https://stackoverflow.com/questions/38684768/customize-keras-loss-function-in-a-way-that-the-y-true-will-depend-on-y-pred
+
+Keras as a simplified interface to TensorFlow: tutorial
+https://blog.keras.io/keras-as-a-simplified-interface-to-tensorflow-tutorial.html
+
+https://github.com/erickrf/autoencoder
+
+Sequence to Sequence Learning with Neural Networks
+https://arxiv.org/abs/1409.3215
+
+
+GenSim tutorials
+https://radimrehurek.com/gensim/tutorial.html
+
+Tools for mapping a sentence with arbitrary length to vector space
+https://github.com/klb3713/sentence2vec
+
+code for dot product of 2 sentence vectors
+https://github.com/maxoodf/word2vec/blob/1489288d4f8e1e430a92c588625a9ae656c3685c/lib/word2vec.cpp#L286
+
+10-minute intro to seq-to-seq learning in Keras
+https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+
+seq2seq in Keras
+https://github.com/farizrahman4u/seq2seq
+
+unsupervised sequence classification using sequence statistics
+https://arxiv.org/pdf/1702.07817.pdf
+
+code for ACOL / GAR graph-based clustering
+https://github.com/ozcell/LALNets/tree/master/lalnets
+
+Tensorflow source :  top_k is differentiable
+https://github.com/tensorflow/tensorflow/blob/43346a1c81d503f0f764e09bb2f12e31a793a168/tensorflow/python/ops/nn_grad.py#L525
+
+Generating a matrix from pairwise comparison on a single vector in TensorFlow
+https://stackoverflow.com/questions/49329178/generating-a-matrix-from-pairwise-comparison-on-a-single-vector-in-tensorflow
+
+TensorFlow自定义损失函数
+https://blog.csdn.net/sinat_29957455/article/details/78369763
+
+What is y_true and y_pred when creating a custom metric in Keras?
+https://stackoverflow.com/questions/46663013/what-is-y-true-and-y-pred-when-creating-a-custom-metric-in-keras
+
+1-D autocorrelation of the input in tensorflow/keras
+https://stackoverflow.com/questions/46803541/autocorrelation-of-the-input-in-tensorflow-keras

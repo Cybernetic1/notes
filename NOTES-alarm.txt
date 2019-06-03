@@ -1,0 +1,2 @@
+date +%s -d "tomorrow 8:30am"
+sudo rtcwake -n -t 1424910600 -m mem ; beep -r 100

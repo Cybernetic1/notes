@@ -1,0 +1,23 @@
+
+Aragon
+(open-source for-profit license)
+(try their software)
+
+Maluuba
+(read their papers)
+
+OSARO (Itamar Arel + Richard Sutton)
+reinforcement learning + robotics
+
+Pat AI (NLP + NN)
+RRG = linguistic role and reference grammar model
+
+Piotr Mirowski (Deep Mind)
+piotr.mirowski@computer.org
+
+Ren Wu (Baidu chief scientist)
+renw@sbcglobal.net
+seems imaging, or AI?
+
+StarBase
+(20-something Japanese guy Tomoaki Sato)

@@ -1,0 +1,6 @@
+add fonts to usr/share/fonts/truetype/*.ttf
+then run fc-cache -v -f
+
+**** Quickly list available fonts:
+	fc-list
+
