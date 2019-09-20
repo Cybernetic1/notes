@@ -1,0 +1,18 @@
+Top 10 AI applications:
+
+$40B     robot-assisted surgery**
+$20B     virtual nursing assistants
+$18B     administrative workflow assistance
+$17B     fraud detection
+$16B     dosage error reduction
+$14B     connected machines
+$13B     clinical trial participant identifier
+$5B        preliminary diagnosis
+$3B        automated image diagnosis
+$2B        cybersecurity
+
+TOTAL = ~$150B
+
+source:  Accenture Analysis
+* "value" is the estimated potential annual benefits for each application by 2026
+** orthopedic surgery specific
