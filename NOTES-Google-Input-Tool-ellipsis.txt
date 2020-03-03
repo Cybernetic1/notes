@@ -3,7 +3,11 @@
 
 *** edit file "yue_hant_t_i0_und.js"
 
-*** change "\u2026\u2026" to single "\u2026"
+*** Line #2, change "\u2026\u2026" to single "\u2026"
+    This changes ^ to ...
+
+*** Line #3, change "\u300e\u300f" to "\u201c\u201d"
+    This changes『 』 to  “ ”
 
 ==== The following has NOT changed:
 
