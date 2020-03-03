@@ -1,0 +1,26 @@
+*** change directory to:
+~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0/imeconfigs
+
+*** edit file "yue_hant_t_i0_und.js"
+
+*** change "\u2026\u2026" to single "\u2026"
+
+==== The following has NOT changed:
+
+*** chext_driver.js  Line #451:
+\uff0c = ，
+\u3002 = 。
+\uff1f = ?
+\uff01 = !
+\uff1a = :
+\u300c =「
+\u300d = 」
+\uff1b = ;
+
+\u00a0 = no-break space
+
+*** This command can be used to change all occurrences in all files:
+
+    sed -i 's/uff3e/u2026/g' *.js
+
+This has been applied to all .js files in the imeconfigs/ directory, but seemed to have no effects.

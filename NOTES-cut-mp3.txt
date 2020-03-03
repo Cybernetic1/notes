@@ -1,0 +1,1 @@
+mp3cut -o output.mp3 -t 00:00:20+000-00:00:58+000 input.mp3

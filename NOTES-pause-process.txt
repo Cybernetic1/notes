@@ -1,0 +1,3 @@
+ps -C name-of-process
+kill -STOP 1234     ;; to pause
+kill -CONT 1234     ;; to resume
