@@ -1,5 +1,7 @@
 *** change directory to:
 ~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0/imeconfigs
+	OR
+~/.config/vivaldi/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.9.2_0/imeconfigs
 
 *** edit file "yue_hant_t_i0_und.js"
 
