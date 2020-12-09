@@ -1,0 +1,31 @@
+给定一个 两点   之间的距离函数：
+s(p, q) = \sqrt{ \frac{1}{2} \left[ (p_1-q_1)^2 + (p_1-q_2)^2  + (p_2-q_1)^2 + (p_2-q_2)^2 - (p_1-p_2)^2 - (q_1-q_2)^2 \right] }
+
+如何求得一个 黎曼度量 g 与之符合？ （其实目标是想求得 diffeomorphism，但这是第一步）
+
+我的思路如下，不知有没有错？
+
+在黎曼度量下，两点间的曲线 γ 的长度是：
+{\displaystyle L=\int _{a}^{b}{\sqrt {\sum _{i,j=1}^{n}g_{ij}(\gamma (t))\left({\frac {d}{dt}}x^{i}\circ \gamma (t)\right)\left({\frac {d}{dt}}x^{j}\circ \gamma (t)\right)}}\,dt}
+   
+定义曲线 γ 是由点 p 到 q 的 线性路径， t \in [0,1]：
+\gamma(t) = x(t) = (x^1(t), x^2(t)) =  \left( p_1 + t(q_1 - p_1), \; p_2 + t(q_2 - p_2) \right) 
+
+我们要求 L(p, q) = s(p, q).
+
+而在路径 γ 上：
+s(p, x(t)) = \sqrt{ \frac{1}{2} \left[ (t(p_1-q_1))^2 + (p_1-p_2-t(q_2 - p_2))^2  + (p_2-p_1 - t(q_1 - p_1))^2 + (t(p_2 - q_2))^2 - (p_1-p_2)^2 - (p_1 + t(q_1 - p_1) - p_2 - t(q_2 - p_2))^2 \right] }
+ 
+接下来，在等式 L(p, q) = s(p, q) 两边对 t 求导。
+
+Let   \square = (t(p_1-q_1))^2 + (p_1-p_2-t(q_2 - p_2))^2  + (p_2-p_1 - t(q_1 - p_1))^2 + (p_1-p_2-t(q_2 - p_2))^2 - (p_1-p_2)^2 - (p_1 + t(q_1 - p_1) - p_2 - t(q_2 - p_2))^2
+
+\frac{ds(p, x(t))}{dt} = \frac{d}{dt} \sqrt{ \frac{1}{2} \square} = \frac{\sqrt{2}}{2} \square^{-1/2} \cdot \frac{d \square}{dt}
+
+\frac{dL(p, x(t))}{dt} = \sqrt{ \begin{bmatrix} g(x(t))_{ij} \end{bmatrix} \begin{bmatrix} q_1 - p_1\\ q_2 - p_2 \end{bmatrix} \begin{bmatrix} q_1 - p_1\\ q_2 - p_2 \end{bmatrix} }
+
+两边平方，得到：
+[g(x(t))_{ij}] \begin{bmatrix} q_1 - p_1\\ q_2 - p_2 \end{bmatrix} \begin{bmatrix} q_1 - p_1\\ q_2 - p_2 \end{bmatrix} = \frac{1}{2} \square^{-1} \left( \frac{d \square}{dt} \right)^2
+
+以上是 g_ij 在线性路径 γ 上必需满足的一条方程（它包含的自变量是：p1, p2, q1, q2 和 t），但我想得到的是 g_ij 在任意点 (x1, x2) 上的表达式。 似乎我需要将 参数 p1, p2, q1, q2, t 转换成 x1, x2 就行了。
+暂时做到这里，但有点犹疑。 这个做法正确吗？ 有没有更好的做法？
