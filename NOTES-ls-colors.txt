@@ -1,0 +1,4 @@
+change ~/.bashrc
+add line:  LS_COLORS= ....
+add the color: 'di=1;44;97'
+to display current colors:  echo $LS_COLORS
