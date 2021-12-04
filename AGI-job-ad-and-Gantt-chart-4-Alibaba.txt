@@ -1,0 +1,13 @@
+Hello,
+We are a startup company trying to build human-level artificial intelligence with international collaboration.
+We are seeking students and researchers interested in this endeavor.
+Our current AI architecture is based on combining deep learning, reinforcement learning, and symbolic logic.
+In particular, we are currently looking for Tensorflow programmers familiar with Google's BERT model and reinforcement learning (eg. Actor-Critic).
+
+May -- experiment with Google BERT language model
+May to June -- combine BERT with reinforcement learning.
+June to July -- feed our own data into modified BERT and observe its explaining power.
+July to August -- make custom modifications so that BERT can extract knowledge from user data.  
+August to September -- allow for more time to develop the AI system.  
+September -- start using our custom system to build audience profiles, match profiles to advertisers
+October -- evaluate performance of system over 1-month testing period 

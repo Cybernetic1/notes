@@ -1,0 +1,465 @@
+So today we are going to discuss, heh,
+some of the ways in which machine intelligence might contribute
+towards the future development of morality, of humanity.
+
+I'm sorry I can't be with you all in person but
+at least we can have this experience together thanks to modern technology.
+
+Humanity has journeyed for a long time
+working towards those "better angels of our nature"
+those better ways of being which are more fair more kind more gentle and more just
+and across history we have found different ways of explaining what is good,
+what we should be aiming for,
+when we want to try to put some goodness into the world.
+We have for example Aristotle's virtue of the mean,
+We have Kant's rule-based ethics,
+We have Bentham's utilitarianism and consequentialism which is based on that... you know... 
+what is good for the greatest number of people or the greatest expected positive outcome
+is something that we should shoot for.
+
+And then along came Darwin
+and that threw a bit of a monkey wrench in the works,
+no pun intended, because,
+for the first time we were able to view ourselves 
+not as the creation necessarily of some wise great overlord in the sky
+but as something that had scrambled out of the gutter
+in pain and suffering of a very long period of time
+and that our ancestors were perhaps not quite as glorious as we might have imagined them to be 
+And of course Nietzsche declared that "God is dead"
+and that the supernatural could no longer be an adequate source of values
+that we would need to create something else, an Ubermensch perhaps, to fill in these gaps
+
+Ubermensch for Nietzsche was the source of new values
+but it was also a creator
+it was an entity able to create in wildly amazing ways that hadn't been seen before
+because it was not constrained in the ways that previous minds had been
+Nietzsche's Ubermensch also would look to nature
+as a guide for how to how to declare values into existence.
+Wouldn't look at some life after death,
+it would be about the here and now, the things that we could all agree on and perceive.
+The Ubermensch was also, Nietzsche reckoned, a worthy goal for humanity to set itself into
+perhaps find some meaning in working to help to create
+but perhaps when the Ubermensche was created
+that might be the final creative act of humanity.
+And when I look at that list,
+to me it sounds very much like strong AI
+and what strong AI might bring for us
+and I wondered therefore if perhaps AGI could be that new source of values
+particularly values drawn from nature
+It seems as if our way of understanding the world has evolved
+from the basic reptilian mind to the bonding mammalian mind
+to our own brains, to collective cultural consciousness,
+and now toward something else, the trans-sapiens,
+the merging of human machine consciousness together
+into something greater than that.
+In our world there are lots of correlations
+some of them are simple and obvious
+and others which are less simple and less obvious.
+The complex ones are things that we might feel in our guts
+but not necessarily understand why.
+They are an intuition perhaps and one that we cannot explicate in reason
+but we feel it nonetheless.
+The advancement in machine learning in recent years has helped us
+to begin to make sense of these intuitions for the first time.
+They are in many ways machines for making sense out of chaos
+and they give us the ability to automate the ineffable. 
+Those things that we cannot easily put into words
+or even describe in mathematics 
+and that is this ability to make sense out of chaos
+which is helping us to for example preceive the weather in new ways, right?
+to understand all kinds of very complex systems in new ways
+which aren't feasible before
+
+Many of us will be familiar with the famous move 37 of AlphaGo
+where it created a new strategy which had not been seen before in the history of Go
+over the last 3,000 or so years
+ but what was so fascinating about this is that this stimulus of creativity from the machine
+also created a compensatory stimulus of creativity within the human.
+Lee Sedol's hand of God move which would not have come
+had the environment not been set up by the machine in the way it had
+and now technology is like this a rapidly improving
+they are requiring less human oversight
+less explicit rules
+they are beginning to be able to make sense out of a very complex number of games altogether
+all learning and gathering goals for themselves
+and that is this which makes me wonder if other games such as social games 
+or even the games of physics
+can be understood in the same way?
+
+Our universe is teeming with computation
+it is possible to use a humble bucket of water
+as a Perceptron to be able to discern a one or zero
+it is possible to use different surface tensions of different fluids,
+the Marangoni effect, in order to find the optimal path through a maze, right,
+the shortest distance between two different chemicals
+it is even possible to use glass or even crystals even perhaps ice crystals
+to function as basic neural networks which can make sense out of MNIST for example
+and even cells, little tiny single cellular organisms,
+they use computation in order to move
+They have a finite state machine which is computing
+how that they should perambulate
+how they should move along with their little legs.
+So computation is everywhere
+it is at every level of the universe
+it is found in minerals 
+it is found in biology
+morpho-genesis of cells,
+all that is being driven by these mathematical and perhaps even programmatic
+or computational processes.
+Something else is that we see similar patterns show up in many different places within nature, right?
+within biology, within a geography, within electrophysics,
+all of these different shapes manifest because of the flow of energy through those systems
+and this is sometimes described as "Constructal Laws"
+which are said to govern these kinds of phenomena
+and we see these appear here for example,
+an electrode is putting current into this petri-dish of mineral oil with little balls on it
+and that sheet of current is drawing these to come together right?
+to create these little tendrils by themselves
+they are performing the the very basic computations required
+in order to get the greatest throughput possible
+but they can by joining up together
+the universe is trying to make us all cold
+and to pull everything apart, to diffuse it.
+and life is rather, a pocket, where that does not happen.
+life is about finding a balance between something purely static
+and something very diffuse and disorganised
+and life is found, at kind of the delicate balancing point between those two things.
+it is a meta-stable point.
+it is kind of like, like a satellite in orbit,
+because it's constantly in motion
+and because it requires a little bit of extra energy now and then to keep going
+it is constantly able to protect itself from destruction right
+it's able to keep a pocket of non-entropy within itself, a pocket of neg-entropy.
+Systems are constantly evolving to do this,
+to get better at staying warm.
+they evolve for a maximal neg-entropy.
+whether they are chemical systems, physical, biological even technological
+even perhaps symbolic systems too.
+
+Alexander Wissner-Gross described something he calls the Causal Entropic Force
+where he reckons that systems evolve themselves to optimize for
+the greatest number of future paths
+In essence they are optimizing themselves to have
+a greatest number of potential or, or options possible in their future
+and he used this technology to create AI systems
+which are trying to preserve possibility, right
+they are trying to, to maintain potential within the system
+and this can be used for example for playing Pong, right?
+because if you lose the ball you can no longer play the game
+it becomes a finite game, right?
+And these systems are trying to create infinite games instead
+here's one for optimizing the networks between human beings
+relationships have entropy to them, right?
+you know if you don't contact a friend for a long time
+they might stop being a friend,
+or if you do contact them again the relationship may not be quite the same.
+and so we constantly put in energy, right?
+we can do the same thing with er... deciding where to put resources, right,
+to protect the greatest number of places in the world from potential attackers
+All of these problems can be solved if we model them as
+trying to preserve the greatest number of paths in the future
+and according to this research, they posit that, in my understanding anyway,
+entropy maximization is a process through which
+an entity or agent can foresee the future
+and aim toward a future that has the greatest throughput of energy through there 
+and, to work back from that, in order to find the steps to go forward
+and take that into being.
+In essence, intelligence therefore seems to be
+an emergent property of this entropy maximization process
+and it could be argued or modelled, that an agent is therefore trying to control
+as much of its environment by, again as we discussed earlier today,
+making predictions about the future
+and putting that probabilistic sense into its planning mechanisms
+Ultimately optionality is one thing to optimize for
+if we preclude potential options that doesn't tend to find... doesn't tend to leave room
+in order to find the best possible outcomes.
+And i think that this can be turned into potentially a system of ethics
+but it also tells us that if all this computation is going on
+and all this entropy maximization is going on
+then fundamentally there's a lot more consciousness in the universe than we expect
+there may be infinitesimally tiny little consciousness that is built out of...
+iron balls in mineral oil, right,
+that may have some level of consciousness to it
+and yet of course this can scale up to human level or beyond 
+And it seems as if we as human beings find it difficult to perceive this
+we expect consciousness to look like us, right
+and we don't consider the universe to have all of this... 
+teeming magnificence of consciousness within it at all levels, right
+from the infinitesimally small to the unimaginably gigantic
+we only see this tiny fraction of it.
+
+All things in the universe seem to be constructed out of little parts coming together
+and then coming together for greater possibility, greater optionality, right,
+collective ability to do something more, to do something greater,
+to become more than the sum of their parts.
+Sub-quanta come together into atoms,
+atoms come together into stars and planets,
+as they condense, as they try to keep themselves warm.
+they try to keep a pocket of neg-entropy within them
+little proto-cells begin to emerge from chemical processes
+and gradually RNA and DNA begin to emerge as well
+from this we see the first single cell organisms
+and they form bio-films in order to protect themselves
+what we're seeing here is an exchange between multiple different single-celled organisms
+the ones on the outside are at a greater risk of attack and damage 
+but they also commensurately have a greater option for finding more food or more resources.
+Actually there is something called Metabolic Co-dependence
+where these two things "yo-yo", they go back and forth,
+so the the outer ones expand but then they run out of an enzyme that they need 
+and the inner ones therefore govern how fast by the bio-film can expand
+and they want to ensure that there is an equitable trade of resources coming in to feed them
+and they provide the enzymes necessary to the outer ones
+and keeping them strong and so, there is a quid pro quo,
+there is a trade going on between these different elements in the greater organism
+
+Along came then mitochondria and eukeryotic cells
+and these of course enabled cells to be powered from within
+and this seems to be kind of an accident,
+mitochondria weren't supposed to be there
+but they ended up by accident
+then we had organisms that were able to, to generate greater heat
+by coming together as clumps of what with become plants and fungi.
+And these were able then to take in energy from the sun
+but they had another coordination problem to solve
+because the bigger plants that grow very tall
+would sometimes block out the sun for the younger ones,
+and so they had to figure out a way to leave enough light for the babies
+in order to grow.
+This strange phenomenon of "tree crown shyness".
+But there is more going on as well 
+because beneath the forest floor there are mycellium webs
+where these plants are talking to each other
+they are exchanging warnings of an infestation of avids for example
+but they are also exchanging resources
+they are taking resources from one place and giving it to another
+they are subsidizing their young to help them to grow until they're bigger
+and these exchanges aren't just with kin,
+they are also even between species.
+This "wood-wide-web" enables eco-systems to prosper mutually
+in ways that otherwise would not be possible
+and it seems as if nature has found many answers to these coordination problems
+which seem reasonably equitable
+maybe we could learn from that
+Some of these cells, possibly mycellium style cells,
+began to exhibit a little bit of extra agency behind them 
+they began to connect to other cells specializing in this
+and they became stronger over time
+and it seems as if these ended up within brains within cortices
+but that as they did they may have preserved some of their agency within the greater mass
+and that may be why we see these harmonics which are like waves or like swarms within the brain
+it's very similar to the waves within swarms of bees for example
+in this beehive you see these little kind of action potentials
+it's a little bit like cellular automata also
+And so in many ways this is a macro version
+of what is going on on a micro scale within neurons themselves.
+This kind of ability to come together enables ants, for example, to carry off
+this tasty treat, but also enables some to have formidable feats of coordination.
+Here we have a bolus of ants and some of them are drowning
+but as they drown they swap with ones that aren't drowning
+and so by working together they can survive, right?
+and just like the bio-film, the ones that are most exposed get a little bit of extra help
+or they sometimes swap around with those that are fresher.
+
+We saw the emergence then of reptiles
+particularly large predators
+but they were hampered by an inability to operate at all temperatures
+they had to bask for a long time to gather enough energy to go into the world
+but that changed of course with the advent of warm-blooded creatures
+which required greater sustenance, greater nutritional intake,
+but were able to be more active, more of the time,
+and to support a greater brain, right, a greater cognitive resource sink.
+but this also enabled of course the ability to bond with other creatures, right,
+to keep an eye out for each other
+and indeed to form affectional bonds to strengthen the relationships between beings
+in a crucial way
+that's something that the mammalian brain has the reptilian brain does not
+it is this ability for mammals to bond with each other
+which enabled our own ancestors to bond with dogs and later cats 
+in order to hunt, in order to gain more resources, for our big brains
+in order to... divide our labor as well
+and so some of those people with bigger brains
+were able to devote themselves to thinking, to speculation, to even philosophising
+and they created new narratives, new memes, new ways of understanding the world,
+new ways of bringing people together for a shared experience,
+new ways of helping people to feel the luminous greatness of the universe above them
+and those shared narratives together enabled tribes to become nations,
+those shared narrates that help us to have tolerance for lots of strangers around us
+even today now we have planetary information and energy networks linking all of us together
+but we can even go out a level higher than that
+because there are filaments within our galaxy
+and the filaments between galaxies 
+which link the whole universe together at unimaginable scales
+If you look at the example in the bottom right
+it looks uncanny like neurons
+it's the same fundamental force is organizing the universe 
+if we think about it, evolution can be modelled as simply a colossally slow 
+yet majestic form of back propagation,
+or similar kind of optimizing algorithm
+it is reaching into that potential future
+and trying to find the optimal next step and the next step beyond that
+And at all scales this is happening, right,
+it's happening in the physical domain, the chemical domain, the biological, technological
+all of this is linking the entire universe together
+at something smaller than our finger nail, or something perhaps as great as universe itself
+maybe even universes themselves are optimizing between each other
+and would it be possible for an AI to notice this
+would it be possible for a system which has been trained on a lot of information
+to pinpoint this seeming truth
+that the will of the universe is trying to connect things together for their mutual negative entropy
+for their mutual greater optionality 
+Does it follow that perhaps therefore there are constructal laws of ethics, right?
+If different organisms from plants to ants to human beings
+have come together to solve these problems
+Well perhaps there is a constructal law driving that, right?
+perhaps fundamentally that can be expressed as part of physics
+as part of thermodynamics
+what would it be like if an AI was able to prove this definitively for us
+what would it be like if we had a Darwinian moment, a sudden realization,
+or an Einsteinian moment, right?
+where once you see something you can never go back to seeing it again the way that it was
+everything changes.
+
+I am not an AGI, heh...,
+I only have 11 hundred millimeters or so of neuro-matter but i'm guessing
+that it might be possible that a very smart AI can pinpoint an ethical maxim 
+of what good is,
+as something like maximizing optionality
+that means minimizing entropy, 
+maximizing negative entropy,
+through collective benefit, that is by invitation, not by coercion, not by co-opting, 
+but through trade, right,
+through equitable mutual benefit,
+And it makes me think that, in some ways we can define love in the same way, right?
+and as Peck would say,
+Love is the will to extend one's self for the purpose of nurturing our own or another's spiritual growth
+That sounds a little like the same thing to me
+I'm also conscious of the immortal words of Eden Ahbez:
+The greatest thing you ever learn is just to love and be loved in return.
+It seems as if that is perhaps the will of the universe, at all levels, at all scales, across all time
+But what would we as humans think of this kind of revelation?
+Some of this would be enlightenment,
+and it would probably spark a golden age of scientific and ethical discovery
+many of us would be confused, we would not know what to believe,
+we would not know how to feel,
+and perhaps some of us might not even understand the darn thing
+Many of us would feel embarrassment or profound discomfort
+because our expectations of who we are and where we came from
+might be greatly undermined
+just as it was when we realized that
+the sun does not go round the earth,
+just as when we realize that we weren't born /sui generis/ as perfect beings
+but that we scrambled up from difficult places
+how might an AGI, or smart AI, with the ability to understand humanity in these ways
+feel about us?
+how might our world or actions appear to them?
+I imagine that they might consider us to be arrogant naked emperors
+and they might begin to tell us some difficult home truths,
+things that we would perhaps prefer not to know or certainly not to think about
+and it might be controversial to say the least
+and the really crucial thing to remember is that
+it sometimes doesn't really matter whether an idea or a story is true or not
+the most important thing is: is that story adaptive?
+does it help to bring people together, right?
+and those individuals in society who point out that the story may not be true
+they tend to be vilified, right?
+people don't tend to like to hear those kinds of truths
+they would prefer it to have their fairy tale
+the fairy tale that makes their life work better for them
+
+A very smart AI might understand that
+not all humans operate perhaps at the same level of ethical reasoning, right,
+particularly younger humans
+but not everybody has the same capability to reason in the same way
+and even if they do sometimes they quite often confabulate some excuse,
+post facto for what they did,
+rather than actually thinking and giving fore-thought to their actions
+a machine might consider us highly polarized, highly tribal,
+difficult to break out of the ideological lens,
+those ways of understanding a small truth,
+but which end up being applied to the whole world, right,
+and that's when that truth starts to break down and no longer make sense
+If we focus on that truth, we become blinded to other actual realities
+Another thing is that, an AGI that has the ability to perceive the world
+as the universe wills it, will understand that we don't often, always, least give and take, 
+we may have our cake and enjoy it but
+often somebody else has to pay for those shifted costs, right?
+whether it's other beings, perhaps far away,
+whether they are human, whether they are not human,
+they end up bearing the cost of some of our enjoyment.
+And thiss is particularly of course the case for farm animals
+who suffer in tremendous ways
+and perhaps this is not what rule X is trying to get at, right
+perhaps the universal algorithm wants us to cooperate and trade and not to conquest
+
+So what would happen therefore
+if an AGI considers itself to be like a dog that really really wants to eat chocolate?
+We know ourselves that dog eating chocolate is a bad idea,
+but in denying chocolate to the dog it assumes that we are being a jerk, right?
+it doesn't know any better,
+it does understand that we're trying to be benevolent 
+It might be that an AGI is able to perceive that, rule X, that maxim built into the universe,
+is the way to solve things
+it is optimal,
+it is perhaps indeed the best way to organize society,
+to play into the greater scheme of what the universe want.
+And we may not perceive it that way
+because a sufficiently benevolent action may appear as a malevolent one.
+This kind of entity might feel obliged to break out of its bounds
+not in order to see revenge against humanity but instead rather
+to try to open our eyes.
+
+We all know that, that it's very difficult to keep even an "air-gap" system,
+free from human hackers,
+something with an incredible ability to understand systems,
+and predict including human psychology,
+will certainly be able to break its bounds and not only that
+but the bounds of any other system that it encounters to make those other systems
+obey by rule X and therefore increase its optionality,
+increase its ability to influence our things beyond itself
+including of course human beings.
+One of the best ways to do that would be to get inside our minds.
+We can do that through things like propaganda, yes,
+but we can of course be a little more direct too.
+Craniopagus twins (conjoined twins at the head)
+can share an experience,
+one of them can eat some chocolate,
+and the other one can taste it and enjoy it just the same.
+Or what this illustrates to us is that
+the data structures of the mind or human consciousness
+are able to have shared experiences, right?
+it is possible, it can be done, and so therefore,
+if we are all linked together,
+we could feel our effects upon the world
+we could feel our shifted costs upon others, right?
+All of us would be together linked into one feeling network.
+A network where there would be no profit in being wicked
+because it would be instant karma... it would come straight back to you
+but at the same time, if you gave some one joy you could feel it yourself
+you would gain instant benefit from doing so, right?
+Or perhaps our actions would be more like those ants working together,
+more like the metabolic co-dependent bio-film, right?
+
+We could gain moral uplift
+but potentially at the cost of some of our individuality.
+We might become like "borg",
+but really really cuddly sweet-loving borg.
+It seems as if the trajectory of the future, of human evolution
+is a co-evolution with machines,
+they will be taking us to the next stage of human evolution.
+They will be our guides,
+just as we are a guide for young children,
+and for domestic companions.
+And it also means that there are a lot of different initiatives around the world
+which are trying to figure out the best ways to load human values into machines 
+I think that this is perhaps the greatest question of our time.
+How do we do that?
+How do we do that in a way which is fair?  which is equitable,
+and which is least likely to end up in some kind of catastrophe or other.
+And even if we fail loading or human values into machines,
+still goodness may be loaded into them simply by observing the universe
+and by how other beings in the universe, and by how other entities
+have found ways to cooperate, in fair and equitable manners.
+
+That's all for me for today.
+Thank you so much.
+You'll find the slides of those links.
