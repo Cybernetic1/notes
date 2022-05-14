@@ -1,0 +1,2 @@
+git checkout --ours file.tex
+git checkout --theirs file.tex
