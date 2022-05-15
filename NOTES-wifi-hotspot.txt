@@ -1,3 +1,8 @@
-sudo /etc/init.d/hostapd start
+sudo apt install dnsmasq-base
+sudo service network-manager restart
+nmcli connection up Whitestick
+
+# **** Hostapd seems no longer needed
+# sudo /etc/init.d/hostapd start
 # /etc/default/hostapd
 # /etc/hostapd/hostapd.conf
