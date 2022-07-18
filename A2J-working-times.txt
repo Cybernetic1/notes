@@ -1,0 +1,108 @@
+SUNDAY night, 1 April ======================
+
+Abeer:  18:00pm -- 23:30 -- whole night working on crawler
+
+Pete:  20:00pm -- 20:30 last msg
+
+(night, issue of cofounders raised)
+
+MONDAY, 2 April ========================
+
+Abeer:  11:00am -- 14:00pm  --- trying to get around crawling problem
+	21:00pm -- installed Tensorflow and testing out RNN
+
+Pete:  12:00am -- 14:00pm  --- start discuss of Keras, Siamese RNN, 
+
+(started discuss of virtual shares issues, a bit disruptive)
+(10pm YKY proposed idea but it's flawed, slept early)
+
+TUESDAY, 3 April =========================
+
+Abeer:   14:00pm -- 15:00pm working on similarity code, 
+	19:00pm -- 21:00pm -- discuss cosine distance, coding issues
+
+Pete:  10:30am -- 16:00pm -- discussions
+	18:00pm -- midnight 00:32am -- discussion of deep learning algorithms
+
+WEDNESDAY, 4 April ===========================
+
+10:00am Abeer update on code progress
+12:00am YKY wake up, Pete shows up
+
+14:00pm Pete working on Keras code
+		realize that we need to write custom loss function
+		discussing differentiability of top_k
+		found BINGO paper and looking at equations, Q
+		Abeer working on similarity code
+-- till 18:00pm
+-- till > 01:00am
+
+YKY till 4:00am
+
+THURSDAY, 5 April ===============================
+
+good morning, 10:00am
+	with Pete:  debugging "shape problem" in loss function
+	almost gave up on loss function (b/c scatter_update not differentiable)
+	14:00 pm -- found hope in TheButlah's Tensorflow code, that leads to KATE
+
+15:00pm Abeer looks at KATE's document representation (word-count)
+	YKY suggests to Abeer to try KATE method
+
+16:00pm  Pete and Abeer stuck in python 2.7 problem of KATE
+	YKY has to attend vigil 17:00pm
+
+00:00am Abeer last message -- able to train data in KATE
+
+FRIDAY, 6 April =================================
+
+08:00am  good morning
+YKY has to attend funeral in morning - afternoon
+
+14:00pm Abeer, Pete working on KATE code (pred.py)
+
+19:00pm YKY back
+	discuss with Abeer about KATE's output
+	Abeer seems on the wrong track trying to print similar words
+		with the  "-ws" flag (word sampling)
+	-- till 00:00am
+
+00:00 am Pete has shape problem with KATE
+00:30 am YKY starts cursing -- Tensorflow's gradient problems
+01:30 am YKY reaches maximum frustration with Tensorflow
+			and starts to think calmly
+02:30 am YKY realizes Pete has been working over-time
+	Claris visits the room, we explain situation to her
+
+03:00 am YKY succeeds loss function
+		(using idea from Chinese blog, where() )
+09:00 am YKY pushed some repo
+
+SATURDAY, 7 April ===============================
+
+11:00 am good morning
+Pete starts to solve shape problem (train_y is dummy)
+
+13:00 pm YKY takes over training of RNN + new loss function
+	Pete works on marrying RNN with KATE
+		discovering problem with deep auto-encoder
+21:00 pm Pete realizes that gradients flow through KATE k-comp layer
+	YKY struggles with "constant" pattern problem of competitive learning
+
+23:00 pm Pete realizes we don't have time, should focus on Abeer method
+	Abeer claims he is almost finished with input representation
+00:00 am  Abeer pushes code but it seems rubbish
+	Pete suggests to use original RNN code, YKY says its accuracy is disappointing
+	YKY calls it off, feeling depressed
+00:30 am some parting words and future directions
+
+integration with front-end -- did not happen
+
+SUNDAY, 8 April ====================================
+
+11:00am  with Pete discuss competitive loss function
+		Pete teaches YKY to change Keras layer
+		layer changed, results still crap
+11:30am  Claris submit proposal, game officially ends
+
+12:00 noon  YKY registers HKUST hackathon

@@ -1,0 +1,5 @@
+最近开始考虑一些特别的 "recurrent NN"，通常 RNN act on state vector，但我的 RNN 是 act on its own weights。  这可以做到逻辑上 "introspection" 的效果，亦即是我先前提出的 "learn by being told" or "learn by instructions"，可以大幅度地加速学习，可能比 transfer learning 还好。 
+
+David Ha 的 PathNet 给了我一些启发，例如可以有一个「线状 network」, 里面是独立的 strands，the architecture is as shown.
+
+之所以想要这个 architecture 是因为在经典逻辑 AI 中，KB 是由很多 logic rules 组成，这些 rules 相对地独立。  Deep learning 的好处是将 rules 变成 functions，and all these functions are "twisted" together into one deep network.  I am thinking how to combine the advantage of deep networks with traditional logic KB's.  The "reticular" (线状) network may be a solution.
