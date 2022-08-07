@@ -1,0 +1,23 @@
+Back-prop -- learns a mapping
+
+Cortex -- activations settle into attractors
+
+An attractor can be an iterative map
+An initial vector iterates through the transition function to reach a fixed point
+
+But it still seems different from the cortex.
+What about different layers?
+
+A function maps an input directly to an output.
+But cortex uses constraints and attractors.
+
+A function maps an input to a probability distribution of outputs,
+similar to an attractor maps an input to a "settlement"?
+What are differences?
+The probability distribution is limited by the dimensionality of output vector.
+The "settlement" can be an activation state belonging to 2^N.
+If we take the whole brain's activation state, the possibilities are an astronomical number.
+That cannot be described by the probability distribution unless --
+we can break down the proposition into individual symbols.
+
+Now the question is:  are Self-Attention "micro-rules" sufficient to emulate logic rules?
