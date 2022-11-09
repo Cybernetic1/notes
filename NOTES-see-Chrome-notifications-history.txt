@@ -1,0 +1,3 @@
+    cd ~/.config/chromium/Default/Platform Notifications
+Find latest .log file, use tilde to read it, accept conversion to UTF-8 encoding:
+    tilde 000014.log
