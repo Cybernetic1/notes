@@ -1,0 +1,6 @@
+On RECEIVING computer:
+    hostname -I
+    nc -l 3333
+On SENDING computer:
+    nc (IP address of receiver) 3333
+Then just start typing, hit Ctrl-C to finish.
