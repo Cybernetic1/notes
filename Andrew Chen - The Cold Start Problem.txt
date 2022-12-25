@@ -1,0 +1,1100 @@
+0:00
+0:05
+[MUSIC PLAYING]
+0:15
+ALI GOLDSTEIN NORUP: Hi. Welcome to this Talks at Google virtual event. My name is Ali Goldstein Norup, and as the Head
+0:22
+of Americas for our Google Cloud for Startups program for VC relationships, I'm very excited today to introduce you
+0:30
+to today's guest, Andrew Chen. Andrew is a general partner at Andreessen Horowitz, where
+0:36
+he invests in consumer technology, including social, marketplace, entertainment, and gaming
+0:42
+experiences. Today, Andrew serves on the boards of All Day Kitchens, Clubhouse, Envoy, Snackpass, and Substack.
+0:51
+Andrew is a prolific writer and a leading voice of mobile, metrics, and user growth.
+0:58
+He's also the author of "The Cold Start Problem," a book exploring how new startups are launched.
+1:05
+"The Cold Start Problem" is now available wherever books are sold. Lastly, a quick disclosure for you that none of the following
+1:12
+should be taken as investment advice from Andrew. And we're going to be able to talk to him about a number of things today.
+1:18
+So with that, Andrew, it is my pleasure to welcome you to Talks at Google.
+1:25
+ANDREW CHEN: Awesome. Thank you, Ali, and it's really a pleasure to be on here and to talk about the new book.
+1:31
+It's actually the day after launch day and also my birthday and so we-- ALI GOLDSTEIN NORUP: Happy birthday.
+1:36
+ANDREW CHEN: Yeah, thank you. Thank you. ALI GOLDSTEIN NORUP: Awesome. ANDREW CHEN: So we have all these great things happening on the same day. ALI GOLDSTEIN NORUP: You're welcome. ANDREW CHEN: And again, really, really
+1:42
+appreciative of being on here. And so what I wanted to do is actually just
+1:48
+to take a couple of minutes, and I have just a couple of short slides that just introduce the book and the concepts in the book.
+1:54
+And then we can just kind of riff from there, if that works for you. ALI GOLDSTEIN NORUP: Perfect. ANDREW CHEN: So let me share my screen.
+2:01
+Hold on one second. So this book, just to give a little bit of the genesis--
+2:08
+it's a book that I've been writing now for actually three years, which is really exciting.
+2:15
+And the book is called "The Cold Start Problem," and the subtitle is "How to Start and Scale
+2:20
+Network Effects." And the reason that I started writing this was just that in the portfolio of Andreessen Horowitz--
+2:28
+and we've been lucky to work with some of the best companies in technology-- we just found over and over again
+2:34
+that, at their core, the products that just seem to just completely kick ass and just
+2:41
+grow huge and are just awesome, impactful products are often the ones that are just connecting-- at their core,
+2:49
+they connect people for different reasons, right? But it's really about connecting people that drives them.
+2:54
+And so Airbnb, you're connecting guests and hosts. For Figma and for GitHub, you're connecting
+3:00
+coworkers and developers and people to work on projects together. For products like Clubhouse and Instagram
+3:08
+and Pinterest and some of these other companies that we've invested in, they're really connecting content creators as well as consumers.
+3:17
+And so really at the core of all of this, it's really-- just to extrapolate and to really sort
+3:24
+of generalize, one of the core driving forces for software eating the world and for technology being
+3:32
+as impactful and as successful as it is, is this term
+3:38
+that we use to describe these kinds of products, which is, they have network effects. And of course, literally, the product
+3:45
+that we're using right now for this presentation-- it's a way to connect people. It has network effects. A lot of the fantastic Google products like Gmail
+3:53
+and G Suite and everything have network effects. And so anyways, we'll talk all about that. But really, it's something that makes all these products really
+4:01
+powerful. And so you might ask, well, what are network effects? And so I'm just going to go through a really simple definition, which is built on the invention of the telephone.
+4:09
+So the phone is kind of a magical thing, because when it was first invented, of course,
+4:15
+by Alexander Graham Bell and then commercialized by a company called the American Telephone and Telegraph
+4:22
+Company, so A, T, and T, AT&T. ALI GOLDSTEIN NORUP: Exactly.
+4:28
+ANDREW CHEN: Over a hundred years ago, the chairman of the company, Theodore Vail, actually
+4:33
+had this amazing quote in it. And he said, "A telephone without a connection
+4:41
+at the other end of the line is not even a toy or a scientific instrument. It is one of the most useless things in the world.
+4:48
+Its value depends on the connection with the other telephone and increases with the number of connections."
+4:54
+And to me, this is a great quote, because if you were to replace a telephone with a workplace chat
+5:03
+app, or telephone with dating app, or something like that, you would basically get a sense of what it's about,
+5:09
+which is that you can build an app. You can have all the right features. But if you don't actually have the right people in the product
+5:16
+at the same time with you, then it's just not going to be useful at all.
+5:22
+And so you're just not going to use a product like some of the products that I've been discussing
+5:28
+unless other people are also using it in the same way. And so just to run through a couple of examples
+5:34
+of this, if you take a product like Dropbox-- this is Dropbox Paper-- and if you are using it, if you open it up at work
+5:42
+and maybe use it a bunch for your personal life, but you open it up at work, and you notice that none of your coworkers are on it.
+5:48
+Or you open up Asana, or you open up Slack, or you open up one of these other products, and none of your coworkers are on it,
+5:53
+then you're much, much less likely to use that product. You'll probably try and figure out,
+5:59
+what does the team actually use? OK, well, they use G Drive. They use Notion.
+6:05
+They use Airtable. It's like, OK, well, I'll go use those instead because that's what everyone else is using. And same for a product like Uber,
+6:12
+where I worked during some of the hypergrowth years and ran a bunch of the growth team.
+6:18
+And the thing that we were the most worried about is when somebody opened the app, and there was no cars available.
+6:25
+And we called that a 0. That was just so, so bad, because it meant that the network was broken.
+6:31
+And same for a marketplace company like eBay or same as many, many products out there.
+6:37
+Tinder's another great example. If you open up Tinder, and there's not enough people around you that you are the kind of people you want to date,
+6:43
+you're not going to use that app. You're going to go use Hinge. You're going to use something else. And so really, this is kind of the core focus of the book.
+6:52
+The idea is that this is at its heart. This is the cold start problem, which
+6:57
+is the other side of the coin. It's basically, yes, when you build one of these products,
+7:03
+and you hear about how whether it's Instagram, or it's Discord, or it's Slack, or any of these products,
+7:10
+when they have a lot of users, if the products become more useful, and they're going to grow even faster.
+7:16
+But on the other side of the coin, what it means is that if you don't have any users, the product isn't valuable.
+7:21
+It's not going to work, and that'll kill your new startup or your new product that you've been working on at work.
+7:29
+And so the book is really meant to try and talk through that whole life cycle and how to solve it.
+7:34
+And so I have this five-part framework that I present in the book, which is that all of these companies, all of these new products,
+7:42
+start with the cold start problem. And to solve it, there's all these different techniques I talk about using atomic networks
+7:47
+and forming atomic networks. I talk about the easy side of a network and the hard side of a network and where to focus.
+7:53
+And then all of a sudden, you should get into the tipping point, which is when you're able to create these networks on demand,
+8:01
+and you're able to start building the 2nd and the 3rd and the 5th and the 10th one, and then off you go, and then escape velocity, where you
+8:06
+start to really professionalize your growth marketing approaches and really amplify your network effects.
+8:13
+And then inevitably, as all of these products become really, really successful, there's various ceilings that you hit.
+8:20
+Going back to Dropbox for a second, there's a point where that company started-- and I was an advisor for many years off and on,
+8:26
+and Drew Houston is a friend, and he's a fantastic guy. And one of the things they saw was they got to a point
+8:31
+where people were using Dropbox as a way to share pirated movies in the Philippines.
+8:37
+And you're like, maybe that's not a good use of the product, and if all of your money is going towards that,
+8:45
+it's not going to be used for other things. And then there's always, of course, the issues that are happening in social media, where
+8:50
+you have a lot of trolls. You have spammers. You have just this overcrowding. If you go to YouTube, there's just too many videos.
+8:58
+And so how do you solve that? Or a chat product like Slack-- it's an amazing product when you have 50 people on it or 100
+9:05
+people, but I was using Slack in a 20,000-person organization. And it starts getting really hard
+9:11
+because it's very overcrowded. And so you need to start to really build features to solve that.
+9:17
+And then finally, in the framework, I talk about the moat, which is, how do you ultimately
+9:23
+build the defensibility in your product such that you can compete against new startups
+9:30
+and new entrants into the market? And so anyway, so let me stop there.
+9:36
+But that's kind of the main topic of the book.
+9:41
+And it was fantastic, really fun to write. I was able to interview hundreds of people from all the top tech companies.
+9:47
+It took three years. I'm glad to finally be done. I also locked myself in a little closet of an office for a week
+9:54
+to read the audio book, even though everyone told me you shouldn't do it. It's a waste of time.
+9:59
+I figured that it would be. I'm just, I think this book will be a one and done. And so it's great to--
+10:05
+I was like, I'm just going to read it for real on there. So let me stop there. But yeah, that's sort of the gist of the book.
+10:12
+ALI GOLDSTEIN NORUP: Andrew, I love it. We had a series of questions we were going to go through to potentially have you do it.
+10:17
+And I may even have you come and pull up a slide with it as well. So this is perfect, ideal to it.
+10:24
+I'm going to take a step back for a second. We kicked off, and we talked about how you're at partner at a16z.
+10:31
+But when you moved to the Bay, you were an entrepreneur in residence, and you started with writing a blog post,
+10:38
+and a series of them. You found writing as a way to create your own network,
+10:44
+to some of the parts of the cold start problem, and you definitely saw the additional effects. What was it specifically that made it
+10:50
+so that you were prompted to write this book? ANDREW CHEN: Yeah, well, I love writing.
+10:58
+I was the kind of teenager that kept journals and wrote about things that were happening in my life all the time.
+11:06
+And when I got to the Bay Area, I absolutely had such an amazing time meeting people because I was writing down all the ideas that I was learning.
+11:14
+And so some of the concepts like viral loops and growth hacking and thinking about how
+11:21
+did this intersection between user psychology and metrics and growth was my favorite area to write in,
+11:31
+and so I've written almost a thousand essays on this topic. What I decided at one point is, I just
+11:37
+needed to bring it all together and try to answer this question that's kind of been
+11:42
+in the back of my head for a long time, which is just, what is it that's so special about some of the, quote
+11:48
+unquote, "Silicon Valley"-- of course, none of these companies are actually built in Silicon Valley anymore. But these, quote unquote, "Silicon Valley" companies--
+11:54
+what is so special about Silicon Valley companies that has caused them to make such a big impact in the world?
+12:00
+And the more time that I spent thinking about that, the more I was like, you know, I think I'm going to be able to unify this into one core idea
+12:10
+that, really, these products are all about building networks.
+12:16
+And that is the thing that has been really special about what's happened with them.
+12:22
+And so yeah, so I wrote the book to collect all of these theories together in one place.
+12:29
+And yeah, the result has been "The Cold Start Problem." ALI GOLDSTEIN NORUP: I love it.
+12:34
+So one of the things that you say at the beginning of the book is sort of like, "the network of networks." You reference Metcalfe's law, the network effect.
+12:43
+If you were to sort of dial it up for us, what are some of the lessons for all of the founders of startups, the people in the ecosystem that
+12:50
+are listening, that you would love to share? I know there's the framework of the five pieces, but if you were to go a step further.
+12:57
+ANDREW CHEN: Yeah, yeah. I think there's so much lore in the startup world.
+13:04
+You hear about how Snapchat was started in high schools, and Tinder was started in colleges,
+13:11
+and you hear about these stories like Slack and everything. And it just feels so random. It feels so random.
+13:17
+What is it that all these guys were able to do in the beginning that made their product work
+13:23
+and off the ground? And so I make several arguments in "The Cold Start Problem"
+13:28
+around this. I think the first argument is, it's not an accident that all of these startups begin in these niches.
+13:35
+And they begin in these niches because, ultimately, there's this idea of an atomic network, which is how many people need
+13:44
+to be connected at the same time doing the same thing in order for that product to be valuable. And it turns out for a product like Zoom,
+13:51
+you just need two or three people. And you can actually just keep talking and talking and talking, and that's great.
+13:56
+And there are products that are like Slack that are more valuable when 5 to 10 people on the same team
+14:02
+are using it. But then there's products like Airbnb and Uber,
+14:07
+where, in a city, you actually need hundreds of drivers. You need hundreds of listings in order for the product to be valuable.
+14:14
+And so the first thing is knowing and/or having at least a theory on what that threshold actually
+14:21
+looks like, I think is actually really, really important.
+14:26
+And so a very good example of this is Slack in the early days, if you actually
+14:31
+go back to the story. I mean, first of all, the whole thing is amazing. Like, Stewart Butterfield after creating Flickr--
+14:39
+actually, he created a video game first, and then stopped, and then was like, what am I doing?
+14:45
+And then he and Caterina Fake and a bunch of other people all started Flickr together-- that was sold to Yahoo--
+14:50
+invented photo tagging, and a lot of the constructs that we think about today. The second part of it was--
+14:56
+so he started a new game called "Glitch." And I encourage everyone to search on YouTube
+15:02
+for "Glitch trailer," because it's so amazing. You're these characters, and you're
+15:07
+chatting with each other. You're learning about underwater basket weaving. The levels are built exactly on the heads of all these giants.
+15:15
+Like, it's so fantastic. It's such a great thing. ALI GOLDSTEIN NORUP: It's amazing. ANDREW CHEN: And after raising tens of millions
+15:20
+of dollars, hiring dozens of people, it just completely bombed in the market, just did not work.
+15:26
+And Stewart saw that immediately, and he did this wonderful thing of actually continuing on.
+15:33
+And he brought the team down all the way down to-- I think it was six or seven people.
+15:39
+One of the people that-- a different Ali, actually, that I interviewed for the book Ali Rayl, who's amazing,
+15:45
+who now runs all product at Slack these days. She's fantastic, and she was one of the first seven people
+15:52
+that rebuilt the whole thing. And the way that he rebuilt it was after the-- first of all, they actually had a lot of IRC-based chat tools
+16:00
+that they were using already, and they swapped everything out. And so it didn't require IRC, so it was
+16:05
+easy for nontechnical people. They made it all searchable. They made it so that new company could configure it.
+16:11
+And they sort of knew that because they were a team of just a couple of people that if the chat product was working for them,
+16:18
+so meaning that team was an atomic network, and they were able to get one of their friends' companies
+16:23
+also on board and another set of people to onboard, then they should be able to then build
+16:29
+a 2nd and 3rd and 4th and 5th and 10th atomic network. And then they could basically create this wait list
+16:36
+and then onboard teams at a time. And I think that's a very important approach, as opposed to just announcing on TechCrunch or whatever,
+16:44
+and then a bunch of random people show up. And then it's like, oh, none of my coworkers use this, and then they're just going to quit using the app.
+16:50
+I think it's great. So I think just embedded it within that lesson is, you start small, and the reason
+16:57
+why you start small is so that you can build that density of the network. I think it's also the reason why larger companies historically
+17:05
+have been so bad at this. There's a lot of companies that, over the years,
+17:10
+have tried to compete with TikTok and with-- actually, right now, one of my companies, Clubhouse,
+17:16
+has a whole bunch of missiles pointed at them. And historically, larger companies have not been as good at this because they basically
+17:23
+just take their huge audience, and they basically say, hey, you should all try this new shiny little app.
+17:28
+And the problem is that new app doesn't have time to actually coalesce and those networks
+17:34
+to build organically bit by bit by bit in order for it to work. And instead, you get a lot of users,
+17:40
+but you get a lot of users who are not connected with each other that aren't talking to each other, and then off you go.
+17:46
+So I think that's one part, and then if you'll humor me for one other quick story.
+17:51
+ALI GOLDSTEIN NORUP: Absolutely. ANDREW CHEN: One of my favorite interviews that I had in the book is--
+17:58
+so I was an advisor to Tinder back in the day, back when Sean Rad was still running the company.
+18:05
+He's one of the cofounders. And one of the ideas he talked about, which I thought was just fantastic, is that you have to make the app really,
+18:17
+really amazing for the most attractive people in the online dating market.
+18:22
+ALI GOLDSTEIN NORUP: I love this story. I was hoping you would go there. Yes, please talk about the Tinder case study.
+18:29
+This is fantastic. ANDREW CHEN: Yes, so every network product has what I describe as an easy side
+18:36
+and a hard side of the network. And the easy side of the network is like a YouTube -,
+18:43
+or it's like a buyer on eBay or if you want to use a new marketplace like Whatnot or something
+18:50
+like that. And they just do less work, and their livelihood does not depend on it. If you ride Uber, you just hit a button.
+18:56
+You ride for five minutes. Like, it is what it is. But when you are on the other side of the network, that means you're a content creator.
+19:02
+You're a meeting organizer. You're a seller. What ends up happening is your livelihood is very wrapped up
+19:08
+in your use of the product, and so you are extremely picky. You're extremely picky. You are very concerned about how much you're being paid.
+19:18
+You have all these different lessons and they're just much more valuable. And so what happens is, in the case of Uber,
+19:24
+for instance, a driver, Uber might pay $200, $300,
+19:29
+$500 to buy a driver, versus to buy a rider, using online ads
+19:35
+or referrals or something, might only pay $20, So there's a 10x difference between the value of the two sides. OK, we're going to come back to Tinder now.
+19:42
+So on Tinder, the most interesting thing on Tinder is that, historically, online dating
+19:47
+has been very focused on just getting people to make profiles.
+19:54
+And then if you go back to the '90s, like the original Match.com or eHarmony, it was just like, you're just trying to get people to talk to each other.
+20:01
+And the problem with that is if you are an attractive member of the audience-- and, frankly, it's skewed more towards women
+20:07
+as well-- as the hard side of the network, what ended up happening was they were just inundated with messages left
+20:16
+and right because, unlike when you're at a dinner party or at a bar or something like that,
+20:22
+if one person is talking to two or three people, you're going to talk to their friend, right? ALI GOLDSTEIN NORUP: Exactly. There's others.
+20:28
+ANDREW CHEN: Yeah, there's other people. Yeah, it's fine. But online, it's all private, and so that wasn't the case.
+20:33
+And so if you were an attractive member of the network, you would get literally thousands of messages,
+20:40
+and that's how it worked. And so what ended up happening with Tinder that I thought Sean just did such an amazing job describing
+20:47
+is that we all think of this swiping as kind of this fun thing, and it is fun.
+20:53
+But more importantly, it lets the attractive people in the desirable members of the Tinder network--
+21:03
+it actually lets them modulate how fast they're getting matches. So if they want to get 10 matches a week,
+21:11
+they can match with 10 people, and they can stop swiping, and they can just manage their 10 conversations or their three
+21:16
+conversations, or whatever. If they want to have 500 matches a week, they can do that too.
+21:23
+And so I think one of the really key lessons to me in this is that if you understand the easy side and the hard side
+21:30
+of your network, whatever it may be, that you need to provide this additional functionality
+21:36
+for this like highly, highly valuable subset of your business, whether that's making something that
+21:42
+makes drivers happier or if you're building workplace tools, like something that makes your software developer
+21:47
+leads happier. Like, you really have to figure out something there to unlock it because that's been--
+21:53
+And so just popping back up to the high level, these concepts,
+21:58
+like the hard side and the easy side of the market, the atomic network, thinking about come for the tools,
+22:04
+stay for the network-- like, all these different-- this playbook of strategies-- my goal in writing them and collecting them into this
+22:12
+book-- and the book is effectively 30 case studies on all these different ideas-- is to demystify all these stories that would otherwise
+22:20
+kind of seem random. Like, then you kind of look at them, and they just kind of feel like, oh yeah, it's just kind of lucky that that happened,
+22:26
+and that was why, versus being like, oh, wow, OK, so Uber going from city to city to city, Tinder going
+22:35
+from college to college to college, Slack going from team to team to team actually have a really interesting underlying thematic strategy
+22:46
+for why that actually works. And in the same way, that's why if you're a huge company, just blasting everything to PR and putting links on your home
+22:54
+page and doing all of that-- well, that doesn't let you build highly dense network to highly dense network, and it goes strength to strength.
+23:02
+And so as a result, we've seen that much less effective. And so yeah, so "The Cold Start Problem"
+23:07
+is meant to unpack a lot of these historical patterns and ideas into a cohesive framework.
+23:12
+ALI GOLDSTEIN NORUP: So I love it. You've done a couple of things there, right? You're demystifying some of these stories
+23:18
+so that we can all take the learnings from them. I think the other thing that you do that's phenomenal is you show just how disciplined
+23:26
+these teams are, right? So let's go back to Tinder for a second, your network of networks.
+23:32
+They start with a small party on a campus, but they understand-- and we'll get to LinkedIn in a second
+23:39
+because I love this as a corollary example. They understand that you have to have that quality of the atomic network right at the beginning.
+23:46
+So tell a little bit about that. So we'll do early and then mid and late stage [INAUDIBLE].. ANDREW CHEN: Yeah, of course. That sounds great.
+23:52
+Well, so Tinder is-- I do love that story also because it's
+23:58
+such an iconic product, and it's just so fun what they've been able to do. And so Tinder in the early years, when it
+24:07
+was a product that actually-- basically, the first version of it had everything, all the elements that you
+24:13
+would think of as Tinder. They just, like, nailed the product idea from day one. And sometimes, that happens.
+24:18
+The first version of Instagram just nailed it. The first version of Tinder just nailed it. And so John Bardeen, who was their iOS engineer,
+24:27
+had a deck of playing cards that he would kind of fiddle with while he was coding. And one day, while--
+24:33
+the very, very, very first version actually just had an X and a check mark, and that's how you would advance,
+24:40
+and you didn't swipe. But then he was like, oh, you know, swiping's fun, and it's a new iOS thing.
+24:45
+And so he added it in, and then, boom, off you go with this iconic thing. So they built basically all the right features.
+24:51
+The problem with building all the right features is that then they went, and they started
+24:57
+to invite their friends. And they went on their address books, and they started texting their friends.
+25:03
+Again, this is at a point where online dating kind of is a little bit of a stigma. So imagine this-- you're texting your friends,
+25:09
+and you're almost saying like, hey, you've seem kind of lonely. I feel like you need a boyfriend, you know?
+25:16
+It's a little bit like an insult. And then importantly, I think the Tinder atomic network is not two or three people.
+25:22
+It's also not thousands of people, but it's probably hundreds of people, because you can actually swipe through--
+25:28
+if you think about how many swipes you can do each day, you can actually swipe a couple of dozen people a day
+25:34
+pretty fast pretty easily. And so as a result, you actually need hundreds of profiles
+25:40
+in order to make it interesting. And so that was the problem. That was their cold start problem was, how do they get enough people in at once?
+25:47
+And it just turns out, even though they had all the right features, that even when
+25:53
+they told their friends about it, it was not working. And I think that that is such an important thing, just to stop there for one second, which
+25:59
+is that sometimes you actually have all the right features. You just don't have the right network. ALI GOLDSTEIN NORUP: Exactly, exactly.
+26:05
+Yeah. ANDREW CHEN: And it's very easy for them to potentially have just stopped right there
+26:11
+and just have said like, OK, this isn't working. OK, let's move on.
+26:17
+But instead, what they did was they realized that, well, how do we get everyone in the app
+26:22
+at the same time that's all in the same geography and do it all in one go? And what they realized was they could throw a birthday party.
+26:29
+They were going to go and sponsor this birthday party from one of the really popular people
+26:35
+on the USC campus, where they'd gone to school, and they had one of their younger siblings
+26:42
+was still in school there. And so they ended up throwing this party and sponsoring it. But funny enough, it was at an amazing house.
+26:49
+They bussed people from the campus and the whole thing. But then they actually required you
+26:55
+to install Tinder, show it to the bouncer
+27:00
+in order to get to the party. And you wouldn't use Tinder at the party. But what happened was after the party was done the next day,
+27:07
+there was a bunch of people that maybe you saw from across the room that you didn't have a chance to talk to, and so they would just check the app,
+27:16
+and off they went. So they saw that if they could get 500 people out of party together-- and this was 500 of the most desirable people,
+27:23
+this is like the Greek system, super popular, hyperconnected people-- that then they could take over the whole USC campus.
+27:30
+And by demonstrating that to themselves, then they were able to then pick another school
+27:37
+and another school and another school. And the next school they picked wasn't a tiny liberal arts school on the West Coast.
+27:44
+What it was was they actually started to go after some of the schools that were in some of the southern states.
+27:50
+And the reason is because the Greek system is very powerful, very, very strong there.
+27:56
+A large percentage of all students are in the Greek system. And so they could kind of do this top-down approach
+28:02
+and go to the top fraternities and sororities and sell into there and then build it.
+28:07
+And then what happens is once you get USC and UCLA and Loyola and a bunch of these other schools, eventually, it seeps into LA, and you get LA.
+28:15
+And the once you get LA, then you get New York and San Francisco, and then it goes from there. And so I think it's just this really interesting thing
+28:22
+where that is also why, to something, Ali, that you just said, is that that's why I don't think of Tinder's network
+28:29
+as a super, super broad monolithic network. It's a network of networks of all of these individual schools
+28:36
+and neighborhoods, because even in San Francisco, for instance, you're not going to necessarily date
+28:42
+somebody that is from deep South Bay in the San Jose.
+28:47
+Like, that's just too far. That's, like, an hour and a half. That's too far. Or you're not going to date someone that's in Berkeley because that's, like, an hour.
+28:54
+And so it's a very hyperlocal kind of experience. And so you can win and lose these hyperlocal networks,
+29:00
+and it was important for Tinder to be able to win piecemeal on all this. ALI GOLDSTEIN NORUP: So I said we
+29:06
+were going to go to LinkedIn. I may steal a little bit of time and take us to Reddit as a case example, but I just
+29:11
+want to pull out a couple of the amazing nuggets that you have there, which-- and I'll tee it up for you for both of those case studies.
+29:18
+So they sat down, and they looked, and they had a killer product. They just needed that amazing high-quality atomic network.
+29:24
+And they sat down, and they did the work to figure out how to do it. They manually did it, right?
+29:30
+Teeing you up for Reddit there, right? Like, they manually did it, and then they found ways to operationalize it. To your point about the zeros earlier--
+29:38
+I love this concept, right? If they had gone to a network, and somebody wasn't in the Nordics, oh my goodness, that's still-- they
+29:45
+would not have the best of experiences, and then the curation element from the LinkedIn aspect.
+29:50
+So I'm teeing you up for a few more of them, but there's just so many good concepts in the book with these case studies.
+29:56
+So-- ANDREW CHEN: Yeah. ALI GOLDSTEIN NORUP: Yeah. ANDREW CHEN: Yeah, well, I'll start with this idea. So Paul Graham, one of the cofounders of Y Combinator,
+30:04
+has an amazing essay, from years back, still very relevant, called "Do Things that Don't Scale." So that title is very compelling,
+30:11
+but then he actually has one line that I just want to read out, which is, "The most common unscalable thing
+30:20
+founders have to do at the start is to recruit users manually."
+30:25
+ALI GOLDSTEIN NORUP: Exactly. ANDREW CHEN: Nearly all startups have to. You can't wait for users to come to you.
+30:31
+You have to go out and get them. ALI GOLDSTEIN NORUP: Yep. ANDREW CHEN: And I think that's a really tough thing for a lot of founders because it ends up
+30:39
+feeling like, well, you know, they're very product driven. They're engineers. They're maybe a little bit introverted.
+30:44
+That's why they're in tech in the first place. And then all of a sudden, you have to manually-- you have to throw parties and get people,
+30:51
+literally, manually, to like-- I mean, it's just not a very fun thing.
+30:57
+But I think what you see in all of these stories and examples is that at the very beginning,
+31:03
+to get your first hundred users or customers, it actually tends to be very manual.
+31:10
+And you're trying to kind of put in-- the startup team, the founding team, is trying to put in that energy at the beginning
+31:16
+to even get that to go. And so very quickly on LinkedIn-- and I'll spend a little bit more time on Reddit. But very quickly on LinkedIn, when
+31:23
+I interviewed Reid Hoffman for "The Cold Start Problem," one of the things he broke down is like,
+31:29
+look, there's a professional hierarchy. At the very top of the hierarchy, you have folks like Bill Gates that everybody wants to meet.
+31:36
+Everyone would spend time with. And so someone like that is not necessarily that interested in a service that lets
+31:43
+you network with other people. That's not really a thing. On the other side, there's a bunch of folks that are not as professionally successful
+31:50
+and where they're just breaking in, and they don't have as much value to add into these entrenched communities,
+31:56
+and people need reinforcement, or they need intros in order to get a hold of them.
+32:04
+Neither sets of those users are going to make for an amazing initial community
+32:10
+for a product like LinkedIn. And so what Reid and the team did was they really identified the set of the folks that
+32:19
+had seen some success. He gave one example at the time, which is Mark Pincus, who was at the time starting Zynga
+32:26
+and wasn't done with his career, but he was still kind of in the scene, still wanted to meet people,
+32:32
+still needed to recruit people. And folks like that who are still in the grind,
+32:37
+and he was like, well, let's build LinkedIn using that base of users and get them going.
+32:43
+And then after we get them going, it'll attract everybody else, because once you get enough of those people, then some of the top folks
+32:50
+will be very interested just to meet them. And then some of the people who are breaking in will aspirationally want to speak with and connect
+32:56
+with some of the folks in the middle. And they literally manually just told everyone in the company,
+33:01
+let's all just send links. Like, let's just go through our address books
+33:06
+one by one and just tell our friends they should be on this platform. And it was invite only for the first week,
+33:14
+and then they open it up, and they went from there. Reddit is a really fun example because in the Reddit case,
+33:21
+it was-- original Reddit, there was no subreddits. It was just one home page. And Steve Huffman and Alexis Ohanian-- what they did
+33:29
+was they just said, well, if we don't post content to the home page, no one's going to view it.
+33:35
+So their hard side of the network was the content creators that put in-- and these days, it's the moderators and the community
+33:41
+people and everything. And what they realized was, well, we need to actually get content up there.
+33:47
+Otherwise, there's going to be nothing to do. On the flip side, the problem was, if you just
+33:53
+saw a million links all from Steve or a million links all from Alexis, that's not good either.
+33:59
+And so what they did was they did something that--
+34:04
+now it's kind of like a funny joke within the thing, which is they basically just wrote these scripts,
+34:09
+and they would just make all these fake users. And the fake users-- ALI GOLDSTEIN NORUP: I love this. I love this. ANDREW CHEN: --would just go and just put content on the screen
+34:19
+and fill up the home page. And the funny thing was, first, on the days that they didn't
+34:26
+run this script, the home page would be empty, and they would freak out. And so sometimes, they'd go on vacation, and they'd check the home page and be like,
+34:31
+oh my god, Reddit has nothing on it. Like, it would freak them out. And then on the other hand, they were posting all these things.
+34:38
+And it took them months and months and months of doing this. And it started out with just manual posting.
+34:44
+Eventually, they added all these scripts that would scrape the top websites online and try to grab cool headlines from CNN and try to put them in
+34:53
+and headlines from Digg and headlines from other places and put them all in. And then eventually one day, one of the things
+35:01
+that Steve talked about is he opened up Reddit, and he had forgotten to run the script that day.
+35:06
+And right there, it was completely full of links, and he knew that it was out there.
+35:13
+Anyway, so this whole chapter is actually the case study for a concept in the book
+35:19
+I call Flintstoning, which is-- you know, Fred Flintstone. Fred Flintstone, if you remember the old cartoon
+35:26
+"The Flintstones," they had a car. And if you got in the car, you just use your legs,
+35:31
+and it was a human-propelled sort of automation. And really, this is just another way to say it,
+35:39
+but these were all kind of human-in-the-loop-type
+35:44
+bootstrapping methods in order to solve the cold start problem. And you only use it for a while, and then
+35:49
+eventually, you get enough users, and the product gets far enough along that, then, you can let go, and your community takes it over
+35:57
+for you. And so I love the Reddit example for that reason. ALI GOLDSTEIN NORUP: I love it, and it's so--
+36:03
+the Flintstoning-- I was hoping you would get there and just sort of call it out. What a great terminology for thinking about that
+36:09
+manual to the operational to the algorithmic, as you called it in the book. And then even more so, you touched
+36:15
+upon it and we can use-- we call it Workspace, but G Suite and Gmail to it.
+36:21
+You use the example of sort of finding that atomic network and then using it to be able to have just a killer
+36:28
+product to it. You can't just have the killer product and then hope the network follows. But if you have the atomic network,
+36:34
+then the killer product can go in. So it is a Google Talk. I would be remiss if I didn't ask
+36:39
+you to talk a little bit about the original invite story, as it goes to Gmail and all the rest.
+36:46
+It is in the book, so I'll [INAUDIBLE]---- ANDREW CHEN: It is with the book. Yes. ALI GOLDSTEIN NORUP: It is in the book. ANDREW CHEN: Yeah. Yeah, I think-- well, invite only
+36:52
+is such a funny mechanism, because first of all, it definitely works. I mean, even as of a year ago, Clubhouse came out of the blue
+37:02
+and got millions of users primarily based on invites. And it just tells you that works,
+37:08
+and Gmail is kind of the quintessential story for all of that. So yeah, so I think there's a couple really interesting
+37:16
+lessons there, which is first that as a mechanic, it still works. It works.
+37:21
+I think people end up implementing it for a bunch of different reasons, and many of them are really good. One is literally just making sure
+37:28
+that your infrastructure is ready for all these users that are bound to come in. And you can always, for example, in the Clubhouse case, the way
+37:37
+that they actually issued the invites I thought was very clever, which was every week, they would go and calculate who are the top 25%
+37:45
+most active users. And you would just drop in the invites there, right? And so that way, basically, you're
+37:50
+giving the most active users, the best users that you have, more and more juice to be able to bring in other people
+37:58
+potentially like them. So I think that's really important of a concept. The other thing is FOMO, right, and the fact
+38:06
+that there is sort of a status and signaling thing kind of associated with it. And I think people maybe overascribe it,
+38:13
+but that is actually why. I mean, I do love that. For instance, one of my friends, early at Google,
+38:19
+invited me to Gmail, and so my email address is voodoo@gmail.com.
+38:25
+And I got one of the short usernames, and I'm so proud of it. I'm so happy about it, even though it's kind of a silly thing.
+38:32
+And so I think all of these products kind of have that type of-- that invite only can cause that.
+38:39
+But I think really importantly, from a network effect standpoint, the reason why invites
+38:44
+are so powerful is because when you are invited into a product, that means you are already connected
+38:50
+with one other person. That's very important, because if you know these--
+38:55
+kind of going back to atomic networks again, if you know that somebody needs at least five connections, well, if everyone that comes in
+39:01
+has at least one connection, then what you've done is you're already 20% of the way there. And then whoever did the inviting
+39:08
+is also up one as well, which is fantastic. And then also importantly, really,
+39:14
+invites let you copy your atomic networks over and over again. So if you have an atomic network of, like LinkedIn,
+39:20
+all these professionals, or in the case of Gmail, it was kind of alpha nerds that were running around, paying
+39:26
+attention to every new project that Google is working on at the time, then what that meant is it was going to be more likely that it would propagate
+39:36
+within the same community and kind of saturate the same community since it could be viral in that way.
+39:41
+And so I think invite only is fantastic. I think there's a lot of other playbook elements
+39:47
+that I talk about. There's coming for the tool and staying for the network. There's using subsidies to build a lot of these.
+39:55
+And so I think the point of all this is not to argue that every single product should launch in colleges and use invites or that kind of thing.
+40:03
+But you have to kind of pick and choose what makes sense for your products. And if your product is a social product, then
+40:10
+maybe you would lean more colleges and that kind of thing. And if your product is more B2B and workplace oriented,
+40:16
+then you would do something else. I was going to mention, by the way, I think one other example that I use, Workspace-- so thank you
+40:24
+for correcting me there. I have to get all the branding correct every time there's any updates.
+40:29
+ALI GOLDSTEIN NORUP: Well, I'll let it go. Yeah, yeah, yeah. ANDREW CHEN: Yeah, yeah, exactly, yeah, so thank you. But the thing I was going to say there is it
+40:35
+is really interesting if you start with a product that has no network effects.
+40:40
+Like, it's not clear that Microsoft Word has network effects. Like, it kind of does because you can copy the files,
+40:47
+and you can email them around, and there's, like, Track Changes. Like, that's kind of where the network effects sit
+40:53
+or the actual file format. But really, at its core, it's not built to be collaborative in any way.
+40:59
+And so it's amazing to think about how documents have gone from that to being able to add commenting
+41:06
+in real-time collaboration. And then, frankly, there's now-- and then now actually taking those documents
+41:12
+and wrapping DocuSign around them, or wrapping presentation layers on top of it
+41:20
+gives you the next level of collaboration and presentation on top of that as well. And so I think for a lot of products,
+41:27
+I also think that some of the most interesting kind of upgrades in their capabilities
+41:34
+comes from taking products that don't have networks and asking the question, could you make this a network-driven product?
+41:40
+Hotels are like this too. Like, imagine if you're a hotel, and you've been selling rooms for decades.
+41:46
+And then all of a sudden, your main competitor, Airbnb, is basically, like, doesn't have any hotels, doesn't have any rooms.
+41:51
+You know, it's a very different way to approach the problem, but I think a lot of the opportunity is there.
+41:57
+ALI GOLDSTEIN NORUP: You're reading my mind. I was just pulling up the question on Airbnb and moats, and I was hoping you would do exactly
+42:05
+that, which is talk about the existence of it. And then there's a moat that can be completely disrupted
+42:11
+through, and so tell us a little bit more about that one. ANDREW CHEN: Yeah, well, so first,
+42:17
+the good news is that lodging is just a existing market.
+42:23
+People just know that it's a thing. And a lot of--
+42:28
+kind of using some of the terminology that we've already built up in this conversation, the issue is that there is a huge opportunity, in particular,
+42:38
+if you could build hotels anywhere. You could build it in the remote parts of Yosemite Park,
+42:45
+if you could build it in all the best neighborhoods, but you often can't.
+42:51
+And so first, it was incredibly interesting to me to learn that Craigslist, actually, for many, many years
+42:58
+has just had a shared housing category, and people were actually transacting on there.
+43:04
+That was a real thing that people were doing. Now, the problem is, at the time,
+43:10
+no pictures, no inventory, no booking. You literally would just email them, and then you'd kind of just go back and forth.
+43:16
+It was very kind of an internet 1.0-type experience. And so I think the very first thing that's interesting
+43:23
+is the way that Airbnb solved the cold start problem for themselves. It was a combination of taking things like South
+43:32
+by Southwest in these conferences and saying, let's get enough inventory just at this one point in time
+43:39
+and get-- because we know all the guests are going to be there. We can get all the hosts. We can get this block of time.
+43:44
+And let's just get it off the ground that way, and that's super interesting. A lot of the early employees and team-- of course,
+43:51
+they would just Airbnb all the time. There was a credit, and so you had kind of this Flintstoning aspect of people just doing that.
+43:58
+You had also a really interesting set of tools. Like, could actually build an Airbnb listing
+44:04
+and then just post it on Craigslist, and you could grow on top of Craigslist. That's the other interesting kind of viral growth thing I
+44:11
+was going to talk about, is that almost every big viral growth story is growing on some kind of pre-existing platform that
+44:18
+already exists, so like Facebook was growing on top of the .edu email systems or same with LinkedIn.
+44:24
+That was all professional emails, versus the Yelps
+44:30
+and Zillows of the world-- they grow on top of Google's SEO kind of platform. You can talk about that way.
+44:36
+And then, of course, all the mobile apps grow on top of the Apple ecosystem. And so for Airbnb, it turns out that they could really
+44:43
+supercharge a lot of their early growth by growing on top of Craigslist. And if you had this tooling, that
+44:50
+was one way that you could really accelerate as well. And so in the early years of Airbnb,
+44:55
+as I was doing the research and speaking with a lot of the early team, there was this amazing period where they
+45:01
+had grown to a fairly good scale in the US. And all of a sudden, this company
+45:08
+called Wimdu appears in Europe. And it's funded with $90 million.
+45:13
+It has hundreds of people. It has more people than Airbnb, more funding than Airbnb. They announced that they have more inventory than in Europe.
+45:20
+And this was a team that was put together by Rocket Internet, which is a little bit-- they're kind of like the boy band creators of internet companies.
+45:29
+Like, they put together an eBay competitor and a Groupon competitor, and they continue to put together these competitors,
+45:36
+and they were going to do that for Airbnb. And if you were to do this based on-- if you were to analyze this situation based on the traditional network
+45:45
+effects thinking of Metcalfe's law, just the bigger network wins, the first mover wins, what you would say
+45:50
+is like, Wimdu wins Europe. Game over. They're just bigger. They have more funding.
+45:55
+Like, it's just over. But the amazing thing with Airbnb
+46:01
+is that they really showed that actually the quality of your network, the density of connections,
+46:07
+matters a lot, and they actually just had better inventory. They had travelers from the US that wanted to go to Europe.
+46:14
+And so they could leverage their pre-existing network to try to go to Europe as well. And within a couple of years, Wimdu was dead.
+46:22
+It was sold off in pieces eventually. And Airbnb, of course, is dominant and doing very successful business,
+46:29
+and this has very successful business in Europe, and off you go. And I think that kind of tells you the nature of these.
+46:34
+And versus when I was at Uber, we didn't have that global network effect.
+46:40
+If we were successful in San Francisco, it did not help us in London or in Paris.
+46:46
+And so unlike booking and Airbnb and these travel, these kind of global networks, and so in our world,
+46:53
+we could win one city but lose another city that was next door. And so I think that speaks to why Uber is just a much harder
+47:01
+business in that way and why, if you're-- and then just to jump over to a whole wholly different sector,
+47:07
+it's also why it is that, if you're Slack, it's so helpful to build connections between companies,
+47:14
+not just within companies, because then you can build an industry-wide ecosystem.
+47:19
+And so those are some of the things that I think are relevant from a competitive dynamic situation.
+47:25
+ALI GOLDSTEIN NORUP: I love it. We're about 10 minutes out with the rest of this. So I know that speaking about network effects
+47:34
+and building networks upon existing networks-- you have some thoughts on Web3.
+47:40
+Raoul Paul has come out and said that he loves applying the network of networks to Web3 and to blockchain.
+47:46
+We'd love for you to give a little bit of your thoughts on the space, whether it's gaming, or if it's NFTs,
+47:51
+or whatever it may be. Yeah. ANDREW CHEN: No, I got lots of thoughts. I mean, Web3 is certainly one of the most exciting new areas
+48:00
+in tech. I really think of it as like-- Web3, kind of everything related to games and metaverse,
+48:07
+is kind of the other big area. The other big one is sort of creator, economy, and next-gen social.
+48:12
+Those are some of the big investment areas that I've been working on at Andreessen Horowitz.
+48:18
+But for Web3 in particular-- look, the thing that is awesome about Web3 is I think it's going to teach a new generation of founders
+48:26
+and entrepreneurs about how to build networks and to build network effects in a deep way. And the reason for that is-- let's
+48:32
+just start with cryptocurrencies as kind of the base case. You could take Bitcoin's source code
+48:39
+and the pre-existing blockchain and fork it all and build your own thing, and you could call it Fitcoin,
+48:49
+and off you go, building this new thing. And it wouldn't be as valuable as Bitcoin
+48:54
+because the reality is that Bitcoin is inherently valuable--
+49:01
+sorry, to say the other way, Bitcoin is valuable because everyone else thinks it's valuable, right? ALI GOLDSTEIN NORUP: Exactly. ANDREW CHEN: And it's very self-referential.
+49:08
+And in the same way, now jumping to what's been happening over the last couple of months,
+49:14
+if you have a family of NFTs that you've created, a lot of what makes it valuable is
+49:21
+you need to solve the cold start problem of what Discord groups,
+49:27
+and what subreddits, and who on Twitter is also going to buy this thing and talk about this thing
+49:33
+and give it value, such that then there's enough people that want to buy it that your 10,000 NFTs that you're going to issue
+49:43
+are going to be widely held by people? And if you can't solve that, then-- you know, there's so many NFT projects.
+49:49
+The vast, vast majority of them aren't going to be valued. I mean, it's going to be like art, right? It's going to be like art in the sense
+49:54
+that, why is the "Mona Lisa" the most popular and famous thing in the world.
+50:00
+It just is. It's self-referential. Actually, there's a funny story about the "Mona Lisa," which is that it was stolen at one point and that it became really famous because it was stolen
+50:06
+[INAUDIBLE]. ALI GOLDSTEIN NORUP: Stolen, exactly. ANDREW CHEN: But why that instead of something else? Is it actually the best portrait?
+50:12
+Maybe, maybe not, right? And so I think that ends up being very interesting. And then I think the other thing that we're starting to see
+50:18
+is this next layer of applications that are being built. And in particular, I've gotten very excited about Web3 and games together.
+50:27
+So you can think of this as the "Axie Infinities" and the "Zed Runs" and many of the companies that we've invested in at a16z.
+50:35
+And the reason why they're so exciting is because they are both games that you'd want to play,
+50:42
+and that gives that utility. And games is already an area where people are spending billions of in virtual goods.
+50:49
+And so the leap from virtual goods are something that I do in video games. You already have that.
+50:54
+And so then the leap from that to, by the way, these are nonfungible, is just much, much more clear.
+51:01
+But in the same way, all these games all have cold start problems. Like, if you're going to build a new game,
+51:07
+and it's going to be the next "Minecraft," but no one plays it, none of your friends play it,
+51:12
+they all want to play "Minecraft," then that's not going to be a thing. If you decide to build the next first-person shooter,
+51:17
+that's amazing. But everyone else is playing "Call of Duty."
+51:25
+Everyone else is playing "Fortnite," and they're building leagues and different things that help lock in that network.
+51:31
+Then they're not going to be as excited on the new thing that you're doing. Even if the tech is better, even if the graphics are better,
+51:37
+even if the content is better, these new types of multiplayer games have an inherent stickiness and network
+51:44
+effect to them that just give them a huge advantage. And so I think a lot of these ideas are going to translate very well into Web3.
+51:52
+And in fact, if anything, because of the decentralized nature of all of this, you'll have to think about networks a lot more
+51:58
+because the answer to everything can't just be, OK, yeah, that central authority or that central server is just going to solve everything.
+52:04
+You actually have to think about incentives and how the network actually wants to interact with each other over time.
+52:10
+ALI GOLDSTEIN NORUP: I love it. We'll get into it at a different time how "Axie Infinity" has built in their tech infrastructure
+52:15
+[INAUDIBLE]. Some is on prem. Some is on a blockchain. They built [INAUDIBLE]. It's interesting. But what I love about how you talk about all
+52:23
+of that is sort of knowing what is the user, what is it that, once again, being disciplined about it,
+52:28
+building a killer product, but realizing also that a killer product without that atomic network is nothing, right?
+52:34
+ANDREW CHEN: Yes. ALI GOLDSTEIN NORUP: Like, it will just cause a zero. So with about 5 minutes left, we've got some fun rapid-fire questions for you at the end,
+52:42
+some a little bit related to "The Cold Start Problem," some just general because it is 2021.
+52:49
+So once it is safe to travel-- this is a fun one-- once it's safe to travel, where do you want to go to first? It's your birthday.
+52:55
+Imagine that there's a ticket that is literally waiting for you outside that door. ANDREW CHEN: [LAUGHS] Well, I have
+53:03
+a board with a company called Sandbox VR, which does these amazing retail VR experiences.
+53:12
+And you can shoot zombies, and you have a haptic suit. The whole thing is amazing. It's amazing. It's like "Ready Player One." it's like the Holodeck, is kind
+53:19
+of what they're aiming towards. And I visited them before COVID, and I
+53:25
+was able to jump through Taiwan and Tokyo and Kyoto
+53:31
+and then spend a bunch of time in Hong Kong, and it was just fantastic, and I'd love to go back there.
+53:37
+I was actually also able to head out to London and Iceland
+53:43
+earlier this year when the new variant had not yet appeared,
+53:48
+and that was a blast. And so, yeah, I definitely miss going to Europe as well. So I think those are both on my list.
+53:54
+ALI GOLDSTEIN NORUP: Somebody, for birthday present for you, many plane tickets at some point in the future. Yes, I love all of it.
+54:00
+All right, so picking on you on your birthday, fun fact about you that some people might not know?
+54:06
+ANDREW CHEN: Yeah, well, I'm from Seattle, originally.
+54:12
+And my early, early-- actually, my academic history is really unique and fun and--
+54:18
+ALI GOLDSTEIN NORUP: It is. ANDREW CHEN: Yes, and so I actually went to the University of Washington as a 14-year-old.
+54:25
+I tested, I took the SAT, scored high enough, went in, and then I ended up actually living in the dorms.
+54:33
+I told everyone I was four years older than I actually was. I mean, I don't know why anyone believed me.
+54:39
+By junior year, I had a college-age girlfriend that was almost four years older than me. She knew, of course--
+54:44
+everything was great. She became an early Airbnb employee, and she's great. And so, yeah, at the very early, early years,
+54:54
+that was such a defining part of who I was. And then now it's a fun fact. Now it's like, you know.
+54:59
+[LAUGHS] ALI GOLDSTEIN NORUP: I love it. Yes. You know, only 14-year-olds go and learn about certain laws and meerkats and the behaviors around them
+55:07
+and all of it. It's fantastic. OK. ANDREW CHEN: Yeah, it's great. ALI GOLDSTEIN NORUP: Favorite well-being activity?
+55:14
+ANDREW CHEN: Oh, oh. Well, I recently have actually been splitting my time in LA,
+55:22
+and so I'm kind of 50-50 here. And one of my favorite things to do-- and I'm spending all my time in Venice on the west side in LA.
+55:30
+And one of my favorite things is actually to convert all of my Zoom calls into phone calls,
+55:36
+so going retro, and then just like walking around and walking along the beach, walking through the canals,
+55:42
+walking through Abbot Kinney, walking through all these different places rather than feeling like I'm locked
+55:48
+in at my desk for all of that. So I feel like that's the way to free-- that's the way to convert 5 hours of indoor time
+55:55
+that you spend on meetings into 5 hours like out and about, which is just so great to be able to do that.
+56:01
+ALI GOLDSTEIN NORUP: Well, [INAUDIBLE] I'll come down to the Venice office and not have you in the office. We'll just go for a walking meeting instead.
+56:08
+It would be-- [LAUGHS] ANDREW CHEN: Yes, I walk past the Google Venice office all the time. Yes, it's great.
+56:13
+ALI GOLDSTEIN NORUP: All right, I've got two more-- ANDREW CHEN: [? Blue bottle ?] is right there, so it's great. ALI GOLDSTEIN NORUP: Exactly. I've got two more for you. All right, since, yes, you're here with us at Google,
+56:20
+I have to ask, any products you can't live without on our side? ANDREW CHEN: Oh, oh, that's such a good one.
+56:27
+Well, I definitely do all my work in Workspace in Google Docs in particular.
+56:37
+And I think the reason for that is-- it's funny. So even when I wrote the book, every time
+56:43
+that I needed to actually do any collaboration, I just went directly into the app, and so that was huge.
+56:50
+And then, of course, I live inside of Chrome. I usually dual wield an Android device.
+56:59
+And so every six months or so, I swap back and forth also as which one's my primary.
+57:05
+I'm actually using a-- I have a Samsung Fold phone. Have you seen one of those?
+57:10
+ALI GOLDSTEIN NORUP: Yeah. ANDREW CHEN: They're so cool. They're so interesting. Yeah, yeah, and so they're great, and they basically convert into a tablet.
+57:17
+But when they're folded, they're actually nice too. So anyway, so I met the Samsung team a little while ago.
+57:22
+They gave me a Fold. I was like, oh, this is awesome. ALI GOLDSTEIN NORUP: That is totally awesome. I love it. Early birthday present-- we'll just keep referencing it.
+57:29
+ANDREW CHEN: [LAUGHS] ALI GOLDSTEIN NORUP: With that, I know it's one of those things with the book,
+57:35
+and it's phenomenal. I have my copy here. It was great reading over the last couple of weeks.
+57:41
+It's definitely going to be one of those things that's attached to you, but what's your personal motto?
+57:46
+Like, what do you want to leave us with as sort of the last bit, especially as it relates to such an amazing book?
+57:52
+ANDREW CHEN: Yeah, well, I think that the biggest thing that you
+57:59
+have to believe when you work in technology is that the future is going to be better, that you
+58:07
+have to believe that, right? And I think we're in a world where we are honestly overexposed to negative things.
+58:14
+Actually, Steven Pinker has a great book that talks about the fact-- let me get the exact title.
+58:23
+But what he does is he talks about how-- when you look at anything, you look at the statistics for war
+58:29
+or for health or for technology and productivity and everything-- the book is called "The Better Angels
+58:34
+of Our Nature-- Why Violence has Declined"-- that just the amount of progress in the last couple of decades
+58:42
+has been amazing. And I'm so excited about what's going to happen in the future. And all these things that people are worried about--
+58:49
+like, people are worried about, what if the metaverse makes us just want to become like Wall-E-type people
+58:54
+or whatever? I'm like, yeah, but that's what they said about video games. That's what they said about computers. Like, these things are awesome.
+59:01
+And so in general, I have a very positive view on where it's all going to go, and so that's part of my personal motto,
+59:08
+is to be involved in as many of these things as I can. ALI GOLDSTEIN NORUP: Well, my day job here at Google
+59:14
+is working with a lot of our VCs in the startups, and I tell our team all the time, the positivity,
+59:20
+the optimism for our startups and the ecosystem-- it's infectious. Come work with us.
+59:26
+Come see about all the amazing things that they're doing. Andrew, this is phenomenal. For all of you that are listening out there,
+59:32
+this is a really great book. I am a consumer behavior and Metcalfe laws nerd,
+59:38
+so this is fun reading for me. I have all sorts of terminology that's already been shared with our team.
+59:44
+We'll be coming and asking you some questions about zeros and all the rest of it. So with that, Andrew, just thank you.
+59:51
+Thank you so much for it. This has been a true fun, and I hope the book is going to be phenomenal.
+59:57
+It is already, and we're looking to having you more here, talking about all of this. ANDREW CHEN: Amazing.
+1:00:02
+Thank you for hosting me. ALI GOLDSTEIN NORUP: Our pleasure. [MUSIC PLAYING]
+1:00:10
