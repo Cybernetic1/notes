@@ -1,3 +1,8 @@
 for i in *.psd; do
-     convert $i ${i/.psd/.png}
+    convert $i ${i/.psd/.png}
+done
+
+# a range of numbers:
+for i in {0..32}; do
+    rmdir $i
 done

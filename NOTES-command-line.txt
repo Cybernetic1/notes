@@ -1,0 +1,10 @@
+**** Find and replace ****
+
+Occurrences of "foo" will be replaced with "bar":
+    sed -i 's/foo/bar/g' *
+
+On BSD systems like macOS, you need to provide a backup extension like -i '.bak' or else "risk corruption or partial content" per the manpage.
+    sed -i '.bak' 's/foo/bar/g' *
+
+**** Terminal does not echo keystokes after 'kill':
+    stty sane

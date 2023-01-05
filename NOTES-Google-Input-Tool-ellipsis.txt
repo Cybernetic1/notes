@@ -1,17 +1,19 @@
 *** change directory to:
+~/snap/chromium/common/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/10.2.0.2_0/imeconfigs
+	OR
 ~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0/imeconfigs
 	OR
 ~/.config/vivaldi/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.9.2_0/imeconfigs
 
 *** edit file "yue_hant_t_i0_und.js"
 
-*** Line #2, change "\u2026\u2026" to single "\u2026"
+*** Line #10, change "\u2026\u2026" to single "\u2026"
     This changes ^ to ...
 
-*** Line #3, change "\u300e\u300f" to "\u201c\u201d"
+*** Line #12, change "\u300e\u300f" to "\u201c\u201d"
     This changes『 』 to  “ ”
 
-==== The following has NOT changed:
+==== The following needs NOT change ====
 
 *** chext_driver.js  Line #451:
 \uff0c = ，

@@ -2,14 +2,17 @@ Chrome Input Tools
 ==================
 
 look into directory:
+	~/snap/chromium/common/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/10.2.0.2_0
 	~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0
 	~/.config/vivaldi/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.9.2_0
 
 Modify "chext_driver.js":
 	look for tag: "ita-ppe-hlt" <-- this is highlight color
+	--> change to #111, #fbb
 
 	for Cantonese pinyin annotation:
 	look for tag: "ita-ppe-ant"
+	--> change to (32,32,255)
 
 The python script "extract-colors.py" turns out to be not useful for this purpose,
 	but the script works for what it's intended to do.
