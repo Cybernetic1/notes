@@ -1,6 +1,6 @@
 Use:
    xdotool selectwindow
-to get the window number, which is 8388623 per this instance.
+to get the window number, which is 8388623 per this instance (seems to be constant).
 Then:
-    xdotool mousemove --window8388623 5 5 mousedown 1 mousemove 250 50 mouseup 1
-will move it to position (250,50).
+    xdotool mousemove --window 8388623 5 5 mousedown 1 mousemove 1780 70 mouseup 1
+will move it to position (x,y) = (1780,70).
