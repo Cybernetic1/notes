@@ -1,0 +1,9 @@
+1）token 怎样给出 log prob，entropy？
+2）reward 如何计算？ 应该从 LLM backprop 回来的 error 计算。
+问题是 error 不是 reward，error 比 reward 更 specific。
+有个解决办法是：将 LLM 后半部包含在 RL action function 内。
+如果是咁的话，即是说 RL 直接在预测世界的时候 计算奖励。
+
+obs 是什么？ 应该就是 tokens[0...t]
+
+3）PPO 代码用了 batch processing，如何嵌入 LLM？
