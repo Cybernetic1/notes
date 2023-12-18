@@ -1,0 +1,14 @@
+This is from 2017 but it works, using plain Mailman:
+https://itgala.xyz/how-to-install-and-configure-mailman-on-ubuntu/
+
+modify /etc/hosts:
+    127.0.0.1    localhost
+    127.0.0.1    lists.example.com
+
+* SEND mail:
+    echo "Subject: sendmail test" | sendmail -f
+        general.intelligence@gmail.com -v general.intelligence@gmail.com
+    cat /var/log/mail.log
+
+Postfix password:
+	cshlumezcfanzchl

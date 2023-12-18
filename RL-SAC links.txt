@@ -1,0 +1,10 @@
+* Tuomas Haarnoja blog:  BAIR (Berkeley AI Research)
+SAC explained:
+https://bair.berkeley.edu/blog/2017/10/06/soft-q-learning/
+
+* 强化学习之图解SAC算法 (主要讲 NN architectures)
+https://blog.csdn.net/qq_41773233/article/details/118343790
+
+* 动手学强化学习  第 14 章 SAC 算法（很少理论，有些代码）
+https://hrl.boyuai.com/chapter/2/sac%E7%AE%97%E6%B3%95/
+

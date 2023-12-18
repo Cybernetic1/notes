@@ -1,6 +1,9 @@
 Chrome Input Tools
 ==================
 
+To turn on Input Tools without starting Chromium:
+    chromium --app=chrome-extension://mclkkofklkfljcocdinagocijmpgbhab/popup.html
+
 look into directory:
 	~/snap/chromium/common/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/10.2.0.2_0
 	~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0

@@ -1,0 +1,14 @@
+我粗略地看了一遍，细节不清楚，但我觉得我能看懂的。 问题是 GCN 有什么厉害呢？ 😆
+
+哦，原来那 Fourier 变换和 spectrum 的关系是颇复杂的： 它和 multiplier operator 有关。 例如，卷积 f * g 的 Fourier 变换，是 f 和 g 的 Fourier 变换 的 乘积。 换句话说，Fourier 变换可以将某些 复杂变换 变成 简单的 乘积。
+
+给定一个 算子 (operator)，例如 L，如果它是有限矩阵，它的 spectrum 可以用 eigen-value-decomposition 得出，亦即 UΛUᵀ，其中 Λ = diagonal matrix，它的对角线是所有 eigen-values 的值。 这个 operator L 作用在一些函数上，而如果将这些被作用的函数 做 Fourier 变换，则原本的 operator L 变成 乘 在 Fourier 变换了的那些函数上。 例如 L ∙ f = U Λ Uᵀ f 其中 Uᵀ f 就是 f 的 Fourier 变换，或者说 Uᵀ 就是 Fourier 变换。
+
+而如果 L = graph Laplacian，它是一个「算子」， 因为它作用在 graph 的顶点集合 V 上，而输出一个实数值。
+
+这些都是 Wikipedia 上看到的，综合了一下 😅
+
+Correction: graph Laplacian L 作用在 f: V → ℝ 那些 函数 上，V 是图的顶点集。
+
+2019-07-23
+甄景贤

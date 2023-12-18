@@ -1,0 +1,14 @@
+When ImageMagick runs out of memory, do:
+
+sudo tilde /etc/ImageMagick-6/policy.xml
+(note the upper-case of Image)
+change "resource" name="disk" from 1GiB to 8GiB
+
+mogrify -strip -quality 10% *.jpg
+(sometimes 5% is OK, maybe even less)
+
+export MAGICK_TMPDIR=/media/yky/[some external tmp directory]
+
+convert *.jpg -limit memory 1Mb -limit map 2Mb out.pdf
+
+ocrmypdf out.pdf new.pdf

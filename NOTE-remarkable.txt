@@ -1,0 +1,14 @@
+Bug: preview window automatically scrolls to top when you start editing.
+Find the fix here, copy the file:
+	https://github.com/jamiemcg/Remarkable/blob/01d69c1f99b865395ef65d1880cad3bd90cca8b9/remarkable/RemarkableWindow.py
+
+edit ./remarkable/RemarkableWindow.py :
+	find "superscript"
+	change: insert_at_cursor("<sup></sup>")
+	change below 2 places also.
+	ditto for "subscript"
+
+edit ./data/ui/RemarkableWindow.ui :
+	find "subscript"
+	add <accelerator key="7" signal="activate" modifiers="GDK_CONTROL_MASK"/>
+	ditto for "superscript", key="6".

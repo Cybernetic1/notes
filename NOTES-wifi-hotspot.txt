@@ -1,6 +1,6 @@
 sudo apt install dnsmasq-base
 sudo service network-manager restart
-nmcli connection up Whitestick
+nmcli connection up WhiteStick <--- note the case
 
 # **** Hostapd seems no longer needed
 # sudo /etc/init.d/hostapd start
