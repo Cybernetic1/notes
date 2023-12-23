@@ -1,4 +1,7 @@
+**** new method:
 convert -density 300 -background white -alpha remove -trim $1 img_%02d.png
+
+use file.pdf[0] etc to select pages
 
 ***** Old method:
 convert -density 300 FILE.pdf page_%02d.png
