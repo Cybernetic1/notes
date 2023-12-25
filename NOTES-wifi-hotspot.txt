@@ -6,3 +6,14 @@ nmcli connection up WhiteStick <--- note the case
 # sudo /etc/init.d/hostapd start
 # /etc/default/hostapd
 # /etc/hostapd/hostapd.conf
+
+Diagnosis:
+
+sudo ifconfig wlan0 up
+wavemon -- check freq of freq of hotspot host
+
+sudo iwconfig wlan0 freq 2.412G
+iwlist freq
+iwlist wlan0 s			(scan)
+
+If found "WhiteStick", use the upper-right corner icon to connect...
