@@ -1,0 +1,12 @@
+https://askubuntu.com/questions/149651/how-do-i-setup-pointer-keys-mouse-keys-in-lubuntu-move-cursor-with-num-pad-key
+
+Setup for single session:
+	setxkbmap -option keypad:pointerkeys
+
+Press Shift-NumLock to enable
+'5' = left-click
+Press '/' to enable right-click
+
+Look up:
+	/usr/share/X11/xkb/compat/mousekeys
+for more special keys.

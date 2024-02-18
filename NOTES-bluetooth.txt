@@ -1,0 +1,9 @@
+**** To reset BlueTooth dongle:
+	lsusb
+	sudo usbreset 003/003
+
+**** Send File:
+	bluetooth-sendto --device=A8:76:50:0B:56:23 file.pdf
+
+**** Scan devices:
+	hcitool scan

@@ -1,5 +1,8 @@
+In Chromium address bar type: chrome://version
+find default settings directory
+
 *** change directory to:
-~/snap/chromium/common/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/10.2.0.2_0/imeconfigs
+/home/yky/snap/chromium/common/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/10.2.0.2_0/imeconfigs
 	OR
 ~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0/imeconfigs
 	OR

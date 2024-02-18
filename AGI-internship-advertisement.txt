@@ -1,0 +1,11 @@
+Dear internship candidate,
+
+* I am an independent AGI (artificial general intelligence) researcher from Hong Kong, China, with ~20 years' experience in this area.
+
+* We are trying to build a GPT-like AGI architecture based on reinforcement learning and "looped Transformers".  If our theory is correct, it may be able to resolve the problem of hallucinations, and achieve logic coherence, the ultimate step towards strong AI.
+
+* We try to do this project in the form of a DAO (decentralized autonomous organization), where there is no "boss" or hierarchy and contributions are scored by mutual weighted voting.  Our goal is global collaboration without racial, national or any form of discrimination.
+
+* Members of our group can challenge any ideas or assumptions.  We value freedom of speech and tolerance of mistakes.  
+
+* There are no strict prerequisites, I will provide some quick tutorials on: neuroscience, classical logic-based AI, [deep] reinforcement learning, generative models, abstract mathematical structures for AI and category theory, etc.
