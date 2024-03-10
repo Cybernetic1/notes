@@ -1,0 +1,2 @@
+**** send a string to remote terminal:
+ssh yky@219.77.190.157 "echo 'I love you' > /dev/pts/0"
