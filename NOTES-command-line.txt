@@ -8,3 +8,6 @@ On BSD systems like macOS, you need to provide a backup extension like -i '.bak'
 
 **** Terminal does not echo keystokes after 'kill':
     stty sane
+
+**** Print a chunk of lines in text file:
+sed -n '120,+10p' file

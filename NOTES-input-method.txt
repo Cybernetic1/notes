@@ -1,0 +1,18 @@
+Use:
+   xdotool selectwindow
+to get the window number, which is 8388623 per this instance (seems to be constant).
+Then:
+    xdotool mousemove --window 8388623 5 5 mousedown 1 mousemove 1780 70 mouseup 1
+will move it to position (x,y) = (1780,70).
+
+**** Get PID of fcitx because that window has no name
+pgrep -x fcitx
+
+**** Find the window's ID for xdotool (different from PID)
+xdotool search --onlyvisible --pid 1498
+
+**** Combine the above 2 commands into 1:
+xdotool search --onlyvisible --pid `pgrep -x fcitx`
+
+**** Combine with mouse moves:
+xdotool search --pid `pgrep -x fcitx` --onlyvisible --class null mousemove --window %1 65 10 mousedown 1 sleep 0.1 mouseup 1
