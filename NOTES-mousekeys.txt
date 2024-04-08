@@ -3,6 +3,27 @@ https://askubuntu.com/questions/149651/how-do-i-setup-pointer-keys-mouse-keys-in
 Setup for single session:
 	setxkbmap -option keypad:pointerkeys
 
+**** For ASUS Laptop ****
+
+1. Keys are changed by YKY for ASUS laptop, in:
+	/usr/share/X11/xkb/compat/mousekeys
+2. To activate / deactivate:
+	xset led named 'Mouse Keys'		// press Window + 9
+	xset -led named 'Mouse Keys'	// press shift + Window + 9
+	(these keys are defined in ~/.xbindkeysrc)
+	(this is also done by ~/mousekeys.sh)
+
+3. optionally, to enable NumLock, add this to ~/.xbindkeysrc:
+	"numlockx toggle"
+		Mod4 + 0		// Window + 0
+4. optionally, to enable num-pad keys:
+	https://unix.stackexchange.com/questions/580280/how-do-you-emulate-a-numpad-keypad-for-use-with-design-software-such-as-blender
+	Then use Shift+Window+[any key of JKL-UIO-789] to activate / de-activate
+	the files are:	/usr/share/X11/xkb/types/togglekeypad
+					/usr/share/X11/xkb/symbols/togglekeypad_symbols
+	
+*************************
+
 Press Shift-NumLock to enable
 '5' = left-click
 Press '/' to enable right-click
