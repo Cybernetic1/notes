@@ -7,3 +7,21 @@
 
 **** Scan devices:
 	hcitool scan
+
+**** Reverse Tethering:
+**** requires to root Android device:
+https://stackoverflow.com/questions/30933161/android-4-4-2-reverse-tethering-onto-macbook-air-via-bluetooth-pan-not-connect
+
+I did working reverse tethering from MacBook Pro El Capitan to android mobile. Sharing the network Macbook Pro with Bluetooth PAN.
+
+The trick is, to have android mobile rooted. First connect your mobile to any wifi, change advanced network options in mobile as Static IP, 192.168.2.1 router 192.168.2.1 DNS 8.8.8.8 8.8.4.4.
+
+With terminal emulator apk, enter: su dhcpcd bt-pan
+
+Now you can close your wifi in mobile.
+
+be sure you have bluetooth pan configured as "Use DHCP with manual address" option matching same IP and DNS your put in android.
+
+Note; of course android paired with the macbook, and sharing network and sharing bluetooth options active.
+
+All working very stable.
