@@ -7,3 +7,8 @@
 
 **** Scan devices:
 	hcitool scan
+
+**** To share Bluetooth with Android tablet:
+	Blueman icon -> local services -> NAT services
+	https://askubuntu.com/questions/254794/how-can-i-share-my-internet-connection-via-bluetooth
+	It works! but I have to edit /etc/resolv.conf to add the standard DNS servers.
