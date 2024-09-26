@@ -2,6 +2,9 @@
 	lsusb
 	sudo usbreset 003/003
 
+	killall blueman-applet
+	blueman-applet &
+
 **** Send File:
 	bluetooth-sendto --device=A8:76:50:0B:56:23 file.pdf
 
