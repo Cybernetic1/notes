@@ -1,0 +1,5 @@
+
+1) display YouTube video link
+2) comment section (that can be re-organized)
+3) voting buttons
+4) 
