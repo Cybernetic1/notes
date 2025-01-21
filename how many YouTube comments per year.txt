@@ -1,0 +1,22 @@
+1. YouTube comments to views ratio = 0.5%
+ie, per about every 200 views, one will comment.
+
+2. YouTube users view a whopping 1 billion hours of video each day. That accounts for around 5 billion YouTube videos being watched each day. 
+
+That means 5B views per day / 200 = 25M comments per day = 9.125B comments per year
+
+The price for 1 terabyte (TB) per month of decentralized data storage ranges from $0.19 on Filecoin to $4.00 on Storj. On average, 1TB of decentralized data storage costs $2.11 per month in 2023.
+
+This seems very affordable.
+
+Alternative estimate, from:
+https://www.statista.com/statistics/1441305/youtube-likes-comments-dislikes-by-subscribers/
+
+446K
+ 49K
+ 29K
+ 17K
+ 41K
+= 582K comments per year
+
+0.5M vs 9000M, error margin is really big
