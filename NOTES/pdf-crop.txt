@@ -1,0 +1,8 @@
+To crop PDF (fast):
+    cpdf -cropbox "?50pt 45pt 516pt 696pt" in.pdf -o out.pdf
+
+To install cpdf, download zip file from:
+    https://community.coherentpdf.com/
+
+Manual:
+    https://www.coherentpdf.com/cpdfmanual272.pdf
