@@ -1,1 +1,6 @@
-setxkbmap -option "compose:rwin"
+**** set key for typing diacritic symbols
+    setxkbmap -option "compose:rwin"
+
+**** set up LX hotkeys
+    touch /tmp/.X0-lock; lxhotkey
+
