@@ -3,4 +3,6 @@ then run fc-cache -v -f
 
 **** Quickly list available fonts:
 	fc-list
+	fc-list :charset=1F32D (hot dog) or 274C (cross)
 
+fontforge or birdfont can edit font files
