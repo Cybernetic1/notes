@@ -6,3 +6,7 @@ then run fc-cache -v -f
 	fc-list :charset=1F32D (hot dog) or 274C (cross)
 
 fontforge or birdfont can edit font files
+
+**** convert glyphs to SVG:
+https://stackoverflow.com/questions/63187756/how-to-convert-font-icon-to-svg-by-myself
+https://www.reddit.com/r/typography/comments/z6mwyl/any_way_to_convert_ttf_font_to_svg_file_for_each/
