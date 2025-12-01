@@ -1,0 +1,5 @@
+edit:
+	~/.config/lxsession/LXDE/desktop.conf
+find the line:
+	iGtk/CursorThemeSize=18
+change it to 32 or so.
