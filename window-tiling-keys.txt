@@ -1,8 +1,10 @@
-Edit .config/openbox/lubuntu-rc.xml
-or .config/openbox/lxde-rc.xml
+Edit .config/openbox/rc.xml
+(create dir if dir does not exist)
+or .config/openbox/lubuntu-rc.xml
+or .config/openbox/lxqt-rc.xml
 Add the following:
 
-    <!-- Keybindings for window tiling -->
+<!-- Keybindings for window tiling -->
     <keybind key="W-Left">        # HalfLeftScreen
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo"><x>0</x><y>0</y><height>97%</height><width>50%</width></action>
@@ -24,4 +26,22 @@ Add the following:
     </keybind>
     <keybind key="W-End">        # Minimize
       <action name="Iconify"/>
+    </keybind>
+    <keybind key="W-Prior">			# PgUp
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>15%</x>
+        <y>15%</y>
+        <width>80%</width>
+        <height>80%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Next">			# PgDn
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>25%</x>
+        <y>25%</y>
+        <width>30%</width>
+        <height>30%</height>
+      </action>
     </keybind>

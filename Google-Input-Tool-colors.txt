@@ -9,6 +9,9 @@ look into directory:
 	~/.config/chromium/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.0.0_0
 	~/.config/vivaldi/Default/Extensions/mclkkofklkfljcocdinagocijmpgbhab/5.9.9.2_0
 
+Copy the entire extension dir to ~/googleIME
+Then you can install with "load unpacked".
+
 Modify "chext_driver.js":
 	look for tag: "ita-ppe-hlt" <-- this is highlight color
 	--> change to #111, #fbb
