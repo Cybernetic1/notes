@@ -1,3 +1,11 @@
+# Latest success is with this line:
+   nmcli device wifi hotspot ifname <wlp1s0> ssid <YKY-hot> password <XXX>
+
+# There was something wrong with authentication because "no password" worked.
+# The above line sets the authentication method by default, which works.
+# But if authenticcation is set manually by nmcli, log in fails
+
+# --------- older stuffs ------------
 sudo apt install dnsmasq-base
 sudo service network-manager restart
 nmcli connection up WhiteStick <--- note the case
