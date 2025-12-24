@@ -1,0 +1,13 @@
+
+To connect to fastest server:
+    protonvpn connect
+or
+    protonvpn connect --country "United States"
+
+Then:
+    protonvpn disconnect
+
+Reference:
+	http://protonvpn.com/support/linux-cli
+
+
