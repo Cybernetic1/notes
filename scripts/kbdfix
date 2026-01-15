@@ -1,0 +1,13 @@
+#!/usr/bin/expect
+
+# Name this file as kbdfix and make it executable in your path
+# Use showkey -a to check keystrokes, we need the entire escape sequence
+
+eval spawn -noecho $argv
+
+interact {
+# \111		{send "\119"}
+# \119		{send "\111"}
+ \010		{send "\177"}
+ "\033\[3~"	{send "\033\133\063\176"}
+}
