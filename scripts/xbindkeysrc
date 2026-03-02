@@ -78,13 +78,24 @@
 "~/rotate.sh"
 	Alt + r
 
-# Move cursor to lower left corner
-"xdotool mousemove 0 1920"
-	Control + 0x60
+# **** Move cursor to lower left corner
+#"xdotool mousemove 0 1920"
+#	Control + 0x60
+
+# **** Suspend machine
+#     sudo visudo
+#     Add: yky ALL=(ALL) NOPASSWD: /usr/bin/systemctl
+#     check: sudo cat /etc/sudoers
+"beep; systemctl suspend"
+	control + 0x60
+
+# **** For testing only
+#"beep"
+#	control + 1
 
 # Change input method from "汉" to "漢" 
-"xdotool search --pid `pgrep -x fcitx` --onlyvisible --class null sleep 0.5 mousemove --window %1 40 10 mousedown 1 sleep 0.1 mouseup 1"
-	Alt + i
+# "xdotool search --pid `pgrep -x fcitx` --onlyvisible --class null sleep 0.5 mousemove --window %1 40 10 mousedown 1 sleep 0.1 mouseup 1"
+#	Alt + i
 
 # **** send window below
 # "wmctrl -r :ACTIVE: -b add,below"
