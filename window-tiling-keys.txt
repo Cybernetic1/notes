@@ -1,3 +1,6 @@
+Go to LXQT --> settings --> shortcut keys -->
+  disable "Super_L" for opening Main Applications Menu
+
 Edit .config/openbox/rc.xml
 (create dir if dir does not exist)
 or .config/openbox/lubuntu-rc.xml
